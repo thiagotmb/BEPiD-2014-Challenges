@@ -44,6 +44,18 @@
     picker.dataSource = self;
     [self.view addSubview:picker];
 
+
 }
+
+-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+
+-(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return 1;
+}
+
 
 @end
