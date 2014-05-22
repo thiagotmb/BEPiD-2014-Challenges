@@ -1,5 +1,5 @@
 //
-//  TMBViewController.h
+//  TMBAppDelegate.h
 //  Desafio1
 //
 //  Created by Thiago on 5/19/14.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TMBView.h"
 
-@interface TMBViewController : UIViewController
+@interface TMBAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
