@@ -106,6 +106,8 @@
     
     
 }
+
+-(void)updateKeyboardConstraint:(CGFloat)height animationDuration:(NSTimeInterval)
 - (void)drawSquare{
     
     CGRect frame = CGRectMake(_xPosition.text.floatValue, _yPosition.text.floatValue + (_backFormView.frame.origin.y + _backFormView.frame.size.height), _widthSize.text.floatValue, _heigthSize.text.floatValue);

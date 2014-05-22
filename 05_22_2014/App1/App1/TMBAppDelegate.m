@@ -1,30 +1,27 @@
 //
 //  TMBAppDelegate.m
-//  ScrollViewChallenge
+//  App1
 //
-//  Created by Thiago on 5/21/14.
+//  Created by Thiago on 5/22/14.
 //  Copyright (c) 2014 Thiago. All rights reserved.
 //
 
 #import "TMBAppDelegate.h"
-
+#import "TMBMainViewController.h"
 
 @implementation TMBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    //Aumentando o tamanho da janela em duas vezes
-    CGRect screenRect = self.window.bounds;
-    
-    
-    //adicionando o uiscrollview na tela
-    TMBScrollView *scrollView = [[TMBScrollView alloc] initWithFrame:screenRect];
-    [self.window addSubview:scrollView];
-    
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TMBMainViewController *mainViewController = [[TMBMainViewController alloc] initWithNibName:@"TMBMainViewController" bundle:nil];
+    [self.window setRootViewController:mainViewController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
