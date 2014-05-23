@@ -1,6 +1,6 @@
 //
 //  TMBAppDelegate.m
-//  App2
+//  App3
 //
 //  Created by Thiago Bernardes on 5/23/14.
 //  Copyright (c) 2014 BEPiD. All rights reserved.
@@ -8,18 +8,12 @@
 
 #import "TMBAppDelegate.h"
 
-
 @implementation TMBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    
-    TMBViewController *mainViewController = [[TMBViewController alloc] initWithNibName:@"TMBViewController" bundle:nil];
-    [self.window setRootViewController:mainViewController];
-    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

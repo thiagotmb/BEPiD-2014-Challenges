@@ -19,6 +19,8 @@
 		0A4D7058192FB76900FA3960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4D7040192FB76900FA3960 /* UIKit.framework */; };
 		0A4D7060192FB76900FA3960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D705E192FB76900FA3960 /* InfoPlist.strings */; };
 		0A4D7062192FB76900FA3960 /* App2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D7061192FB76900FA3960 /* App2Tests.m */; };
+		0A4D7078192FC6D600FA3960 /* TMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D7076192FC6D600FA3960 /* TMBViewController.m */; };
+		0A4D7079192FC6D600FA3960 /* TMBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D7077192FC6D600FA3960 /* TMBViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		0A4D705D192FB76900FA3960 /* App2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App2Tests-Info.plist"; sourceTree = "<group>"; };
 		0A4D705F192FB76900FA3960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A4D7061192FB76900FA3960 /* App2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App2Tests.m; sourceTree = "<group>"; };
+		0A4D7075192FC6D600FA3960 /* TMBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMBViewController.h; path = ../TMBViewController.h; sourceTree = "<group>"; };
+		0A4D7076192FC6D600FA3960 /* TMBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMBViewController.m; path = ../TMBViewController.m; sourceTree = "<group>"; };
+		0A4D7077192FC6D600FA3960 /* TMBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMBViewController.xib; path = ../TMBViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		0A4D7042192FB76900FA3960 /* App2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A4D7075192FC6D600FA3960 /* TMBViewController.h */,
+				0A4D7076192FC6D600FA3960 /* TMBViewController.m */,
+				0A4D7077192FC6D600FA3960 /* TMBViewController.xib */,
 				0A4D704B192FB76900FA3960 /* TMBAppDelegate.h */,
 				0A4D704C192FB76900FA3960 /* TMBAppDelegate.m */,
 				0A4D704E192FB76900FA3960 /* Images.xcassets */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4D7079192FC6D600FA3960 /* TMBViewController.xib in Resources */,
 				0A4D7047192FB76900FA3960 /* InfoPlist.strings in Resources */,
 				0A4D704F192FB76900FA3960 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4D7078192FC6D600FA3960 /* TMBViewController.m in Sources */,
 				0A4D704D192FB76900FA3960 /* TMBAppDelegate.m in Sources */,
 				0A4D7049192FB76900FA3960 /* main.m in Sources */,
 			);

@@ -1,9 +1,9 @@
 //
 //  TMBAppDelegate.m
-//  App2
+//  ScrollViewChallenge
 //
-//  Created by Thiago Bernardes on 5/23/14.
-//  Copyright (c) 2014 BEPiD. All rights reserved.
+//  Created by Thiago on 5/21/14.
+//  Copyright (c) 2014 Thiago. All rights reserved.
 //
 
 #import "TMBAppDelegate.h"
@@ -16,9 +16,37 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    //Aumentando o tamanho da janela em duas vezes
+    CGRect screenRect = self.window.bounds;
+    CGRect bigRect = screenRect;
+    bigRect.size.width *=2.0;
+    bigRect.size.height *=2.0;
     
-    TMBViewController *mainViewController = [[TMBViewController alloc] initWithNibName:@"TMBViewController" bundle:nil];
-    [self.window setRootViewController:mainViewController];
+    
+    //adicionando o uiscrollview na tela
+    TMBScrollView *scrollView = [[TMBScrollView alloc] initWithFrame:screenRect];
+    [self.window addSubview:scrollView];
+    
+  /* desafio 1
+    //chamando a classe principal e adicionando a variavel de scrollview no frame
+    TMBScrollView *viewPrincipal = [[TMBScrollView alloc]initWithFrame:screenRect];
+    
+    
+    //adicionando subview a scrollview
+    [scrollView addSubview:viewPrincipal];
+    
+    //informando o tamanho da scrollView
+    scrollView.contentSize = bigRect.size;
+    
+ 
+    UILabel *topo = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 100, 20)];
+    topo.text = @"Topo";
+    [scrollView addSubview:topo];
+    
+    UILabel *rodape = [[UILabel alloc] initWithFrame:CGRectMake(0,bigRect.size.height - 20, 100, 20)];
+    rodape.text = @"Rodape";
+    [scrollView addSubview:rodape];
+    */
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
