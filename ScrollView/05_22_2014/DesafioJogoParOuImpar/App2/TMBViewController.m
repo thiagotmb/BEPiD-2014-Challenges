@@ -56,7 +56,7 @@
     
     [self gameRun];
     
-
+    [self.mainScrollView setPagingEnabled:YES];
     
     [self.mainScrollView addSubview:_firstView];
     [self.mainScrollView addSubview:_secondView];

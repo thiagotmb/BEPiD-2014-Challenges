@@ -28,6 +28,7 @@
 @property (nonatomic) unsigned int totalBetNumber;
 
 
+
 - (void)gameRun;
 
 

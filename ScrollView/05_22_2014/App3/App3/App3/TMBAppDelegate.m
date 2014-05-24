@@ -14,6 +14,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TMBViewController *mainViewController = [[TMBViewController alloc]initWithNibName:nil bundle:nil];
+    [self.window setRootViewController:mainViewController];
+    
+    [self.window addSubview:mainViewController.view];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

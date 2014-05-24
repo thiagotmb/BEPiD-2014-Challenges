@@ -19,7 +19,7 @@
         
 
             //seta o tamanho do conteudo da scrollview
-            self.contentSize = CGSizeMake(self.frame.size.width * 14,
+            self.contentSize = CGSizeMake(self.frame.size.width * 15,
                                           self.frame.size.height);
             //scroll comeca na pagina 5
             CGPoint scrollPoint = CGPointMake(0, 0);
