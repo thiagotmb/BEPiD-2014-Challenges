@@ -42,6 +42,7 @@
 //methods below are to the screen move up keyboard
 -(void)keyboardWillShow {
     // Animate the current view out of the way
+    
     if (self.mainScrollView.mainView.frame.origin.y >= 0)
     {
         [self setViewMovedUp:YES];
@@ -63,7 +64,7 @@
     }
 }
 
--(void)textFieldDidBeginEditing:(UITextField *)sender
+-(void)textFieldDidBeginEditing:(UITextView *)sender
 {
     if ([sender isEqual:self.mainScrollView.mainView.textViewNight])
     {
@@ -74,6 +75,7 @@
         }
     }
 }
+
 
 //method to move the view up/down whenever the keyboard is shown/dismissed
 -(void)setViewMovedUp:(BOOL)movedUp

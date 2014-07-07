@@ -15,4 +15,9 @@
 
 @property (nonatomic) TMBScrollView *mainScrollView;
 
+-(void)textFieldDidBeginEditing:(UITextView *)sender;
+
+-(void)setViewMovedUp:(BOOL)movedUp;
+
+
 @end
