@@ -2,8 +2,8 @@
 //  Challenge_20140707_NavigationController_2Tests.m
 //  Challenge_20140707_NavigationController_2Tests
 //
-//  Created by Thiago on 7/7/14.
-//  Copyright (c) 2014 Thiago. All rights reserved.
+//  Created by Thiago Bernardes on 7/9/14.
+//  Copyright (c) 2014 TMB. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

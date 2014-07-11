@@ -45,7 +45,7 @@
     
     _cpfInputExceptionAlert = [[UIAlertView alloc ] initWithTitle:@"O CPF deve conter 11 dígitos" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
     
-    _passWordInputExceptionAlert = [[UIAlertView alloc ] initWithTitle:@"O CPF deve conter 6 dígitos, 2 letras maíusculas e 2 números" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    _passWordInputExceptionAlert = [[UIAlertView alloc ] initWithTitle:@"A senha deve conter 6 dígitos, 2 letras maíusculas e 2 números" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
 }
 
 - (void)didReceiveMemoryWarning

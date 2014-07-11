@@ -44,7 +44,7 @@
 
 -(IBAction)submitForm:(id)sender;
 
-- (IBAction)showPlistData:(id)sender;
+-(IBAction)showPlistData:(id)sender;
 
 -(void)setUpDatabase;
 

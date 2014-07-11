@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7A2F9B33-4C44-4A6F-82DD-44B8DA9416A9</string>
+	<string>A04581C8-2D1F-42EA-8B39-861EDC4AEBCE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Challenge_20140707_NavigationController_2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C7A3825D-2E61-4554-BE18-BD1654CD1239</key>
+		<key>4265B9A3-131F-4247-B7A6-055865DDFB8A</key>
 		<string>https://github.com/thiagotmb/Challenges.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Challenge_20140707_NavigationController_2/Challenge_20140707_NavigationController_2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C7A3825D-2E61-4554-BE18-BD1654CD1239</key>
+		<key>4265B9A3-131F-4247-B7A6-055865DDFB8A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C7A3825D-2E61-4554-BE18-BD1654CD1239</string>
+	<string>4265B9A3-131F-4247-B7A6-055865DDFB8A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C7A3825D-2E61-4554-BE18-BD1654CD1239</string>
+			<string>4265B9A3-131F-4247-B7A6-055865DDFB8A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Challenges</string>
 		</dict>
