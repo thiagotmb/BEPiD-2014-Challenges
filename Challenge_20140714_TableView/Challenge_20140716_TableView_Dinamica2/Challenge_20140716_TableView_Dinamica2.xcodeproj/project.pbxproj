@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A470325B1976F7D40041C9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470325A1976F7D40041C9DA /* Foundation.framework */; };
+		A470325D1976F7D40041C9DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470325C1976F7D40041C9DA /* CoreGraphics.framework */; };
+		A470325F1976F7D40041C9DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470325E1976F7D40041C9DA /* UIKit.framework */; };
+		A47032651976F7D40041C9DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A47032631976F7D40041C9DA /* InfoPlist.strings */; };
+		A47032671976F7D40041C9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47032661976F7D40041C9DA /* main.m */; };
+		A470326B1976F7D40041C9DA /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A470326A1976F7D40041C9DA /* TMBAppDelegate.m */; };
+		A470326D1976F7D40041C9DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A470326C1976F7D40041C9DA /* Images.xcassets */; };
+		A47032741976F7D50041C9DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47032731976F7D50041C9DA /* XCTest.framework */; };
+		A47032751976F7D50041C9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470325A1976F7D40041C9DA /* Foundation.framework */; };
+		A47032761976F7D50041C9DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A470325E1976F7D40041C9DA /* UIKit.framework */; };
+		A470327E1976F7D50041C9DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A470327C1976F7D50041C9DA /* InfoPlist.strings */; };
+		A47032801976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A470327F1976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.m */; };
+		A470328C1976F8310041C9DA /* Iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470328B1976F8310041C9DA /* Iphone.storyboard */; };
+		A47032B51976FA1E0041C9DA /* Barack-Obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032A91976FA1E0041C9DA /* Barack-Obama.jpg */; };
+		A47032B61976FA1E0041C9DA /* bill-gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AA1976FA1E0041C9DA /* bill-gates.jpg */; };
+		A47032B71976FA1E0041C9DA /* Brad-Paisley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AB1976FA1E0041C9DA /* Brad-Paisley.jpg */; };
+		A47032B81976FA1E0041C9DA /* Brad-Pitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AC1976FA1E0041C9DA /* Brad-Pitt.jpg */; };
+		A47032B91976FA1E0041C9DA /* evangeline-lilly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AD1976FA1E0041C9DA /* evangeline-lilly.jpg */; };
+		A47032BA1976FA1E0041C9DA /* halle-berry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AE1976FA1E0041C9DA /* halle-berry.jpg */; };
+		A47032BB1976FA1E0041C9DA /* Mila-Kunis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032AF1976FA1E0041C9DA /* Mila-Kunis.jpg */; };
+		A47032BC1976FA1E0041C9DA /* miranda-lambert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032B01976FA1E0041C9DA /* miranda-lambert.jpg */; };
+		A47032BD1976FA1E0041C9DA /* Patricia-Beck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032B11976FA1E0041C9DA /* Patricia-Beck.jpg */; };
+		A47032BE1976FA1E0041C9DA /* sara_evans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032B21976FA1E0041C9DA /* sara_evans.jpg */; };
+		A47032BF1976FA1E0041C9DA /* steve_jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032B31976FA1E0041C9DA /* steve_jobs.jpg */; };
+		A47032C01976FA1E0041C9DA /* taylor-swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47032B41976FA1E0041C9DA /* taylor-swift.jpg */; };
+		A47032C21976FA260041C9DA /* contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47032C11976FA260041C9DA /* contacts.plist */; };
+		A47032C81976FADB0041C9DA /* TMBContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */; };
+		A47032CB1976FB120041C9DA /* TMBContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47032771976F7D50041C9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A470324F1976F7D40041C9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47032561976F7D40041C9DA;
+			remoteInfo = Challenge_20140716_TableView_Dinamica2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47032571976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge_20140716_TableView_Dinamica2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470325A1976F7D40041C9DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A470325C1976F7D40041C9DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A470325E1976F7D40041C9DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A47032621976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Challenge_20140716_TableView_Dinamica2-Info.plist"; sourceTree = "<group>"; };
+		A47032641976F7D40041C9DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A47032661976F7D40041C9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A47032681976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenge_20140716_TableView_Dinamica2-Prefix.pch"; sourceTree = "<group>"; };
+		A47032691976F7D40041C9DA /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
+		A470326A1976F7D40041C9DA /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
+		A470326C1976F7D40041C9DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A47032721976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge_20140716_TableView_Dinamica2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47032731976F7D50041C9DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A470327B1976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Challenge_20140716_TableView_Dinamica2Tests-Info.plist"; sourceTree = "<group>"; };
+		A470327D1976F7D50041C9DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A470327F1976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge_20140716_TableView_Dinamica2Tests.m; sourceTree = "<group>"; };
+		A470328B1976F8310041C9DA /* Iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Iphone.storyboard; sourceTree = "<group>"; };
+		A47032A91976FA1E0041C9DA /* Barack-Obama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Barack-Obama.jpg"; path = "Images/Barack-Obama.jpg"; sourceTree = "<group>"; };
+		A47032AA1976FA1E0041C9DA /* bill-gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bill-gates.jpg"; path = "Images/bill-gates.jpg"; sourceTree = "<group>"; };
+		A47032AB1976FA1E0041C9DA /* Brad-Paisley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Brad-Paisley.jpg"; path = "Images/Brad-Paisley.jpg"; sourceTree = "<group>"; };
+		A47032AC1976FA1E0041C9DA /* Brad-Pitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Brad-Pitt.jpg"; path = "Images/Brad-Pitt.jpg"; sourceTree = "<group>"; };
+		A47032AD1976FA1E0041C9DA /* evangeline-lilly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "evangeline-lilly.jpg"; path = "Images/evangeline-lilly.jpg"; sourceTree = "<group>"; };
+		A47032AE1976FA1E0041C9DA /* halle-berry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "halle-berry.jpg"; path = "Images/halle-berry.jpg"; sourceTree = "<group>"; };
+		A47032AF1976FA1E0041C9DA /* Mila-Kunis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mila-Kunis.jpg"; path = "Images/Mila-Kunis.jpg"; sourceTree = "<group>"; };
+		A47032B01976FA1E0041C9DA /* miranda-lambert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "miranda-lambert.jpg"; path = "Images/miranda-lambert.jpg"; sourceTree = "<group>"; };
+		A47032B11976FA1E0041C9DA /* Patricia-Beck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Patricia-Beck.jpg"; path = "Images/Patricia-Beck.jpg"; sourceTree = "<group>"; };
+		A47032B21976FA1E0041C9DA /* sara_evans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sara_evans.jpg; path = Images/sara_evans.jpg; sourceTree = "<group>"; };
+		A47032B31976FA1E0041C9DA /* steve_jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steve_jobs.jpg; path = Images/steve_jobs.jpg; sourceTree = "<group>"; };
+		A47032B41976FA1E0041C9DA /* taylor-swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "taylor-swift.jpg"; path = "Images/taylor-swift.jpg"; sourceTree = "<group>"; };
+		A47032C11976FA260041C9DA /* contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = contacts.plist; path = Database/contacts.plist; sourceTree = "<group>"; };
+		A47032C61976FADB0041C9DA /* TMBContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBContactsTableViewController.h; sourceTree = "<group>"; };
+		A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBContactsTableViewController.m; sourceTree = "<group>"; };
+		A47032C91976FB120041C9DA /* TMBContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBContactTableViewCell.h; sourceTree = "<group>"; };
+		A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBContactTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47032541976F7D40041C9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470325D1976F7D40041C9DA /* CoreGraphics.framework in Frameworks */,
+				A470325F1976F7D40041C9DA /* UIKit.framework in Frameworks */,
+				A470325B1976F7D40041C9DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470326F1976F7D50041C9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032741976F7D50041C9DA /* XCTest.framework in Frameworks */,
+				A47032761976F7D50041C9DA /* UIKit.framework in Frameworks */,
+				A47032751976F7D50041C9DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A470324E1976F7D40041C9DA = {
+			isa = PBXGroup;
+			children = (
+				A47032601976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2 */,
+				A47032791976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests */,
+				A47032591976F7D40041C9DA /* Frameworks */,
+				A47032581976F7D40041C9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47032581976F7D40041C9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47032571976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2.app */,
+				A47032721976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47032591976F7D40041C9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A470325A1976F7D40041C9DA /* Foundation.framework */,
+				A470325C1976F7D40041C9DA /* CoreGraphics.framework */,
+				A470325E1976F7D40041C9DA /* UIKit.framework */,
+				A47032731976F7D50041C9DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47032601976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2 */ = {
+			isa = PBXGroup;
+			children = (
+				A47032891976F80C0041C9DA /* Controller */,
+				A470328E1976F9560041C9DA /* Database */,
+				A470328D1976F94F0041C9DA /* Images */,
+				A470328A1976F80C0041C9DA /* View */,
+				A47032691976F7D40041C9DA /* TMBAppDelegate.h */,
+				A470326A1976F7D40041C9DA /* TMBAppDelegate.m */,
+				A470326C1976F7D40041C9DA /* Images.xcassets */,
+				A47032611976F7D40041C9DA /* Supporting Files */,
+			);
+			path = Challenge_20140716_TableView_Dinamica2;
+			sourceTree = "<group>";
+		};
+		A47032611976F7D40041C9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47032621976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2-Info.plist */,
+				A47032631976F7D40041C9DA /* InfoPlist.strings */,
+				A47032661976F7D40041C9DA /* main.m */,
+				A47032681976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47032791976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A470327F1976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.m */,
+				A470327A1976F7D50041C9DA /* Supporting Files */,
+			);
+			path = Challenge_20140716_TableView_Dinamica2Tests;
+			sourceTree = "<group>";
+		};
+		A470327A1976F7D50041C9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A470327B1976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests-Info.plist */,
+				A470327C1976F7D50041C9DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47032891976F80C0041C9DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A47032C61976FADB0041C9DA /* TMBContactsTableViewController.h */,
+				A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */,
+				A47032C91976FB120041C9DA /* TMBContactTableViewCell.h */,
+				A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A470328A1976F80C0041C9DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A470328B1976F8310041C9DA /* Iphone.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A470328D1976F94F0041C9DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A47032A91976FA1E0041C9DA /* Barack-Obama.jpg */,
+				A47032AA1976FA1E0041C9DA /* bill-gates.jpg */,
+				A47032AB1976FA1E0041C9DA /* Brad-Paisley.jpg */,
+				A47032AC1976FA1E0041C9DA /* Brad-Pitt.jpg */,
+				A47032AD1976FA1E0041C9DA /* evangeline-lilly.jpg */,
+				A47032AE1976FA1E0041C9DA /* halle-berry.jpg */,
+				A47032AF1976FA1E0041C9DA /* Mila-Kunis.jpg */,
+				A47032B01976FA1E0041C9DA /* miranda-lambert.jpg */,
+				A47032B11976FA1E0041C9DA /* Patricia-Beck.jpg */,
+				A47032B21976FA1E0041C9DA /* sara_evans.jpg */,
+				A47032B31976FA1E0041C9DA /* steve_jobs.jpg */,
+				A47032B41976FA1E0041C9DA /* taylor-swift.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A470328E1976F9560041C9DA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A47032C11976FA260041C9DA /* contacts.plist */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47032561976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47032831976F7D50041C9DA /* Build configuration list for PBXNativeTarget "Challenge_20140716_TableView_Dinamica2" */;
+			buildPhases = (
+				A47032531976F7D40041C9DA /* Sources */,
+				A47032541976F7D40041C9DA /* Frameworks */,
+				A47032551976F7D40041C9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Challenge_20140716_TableView_Dinamica2;
+			productName = Challenge_20140716_TableView_Dinamica2;
+			productReference = A47032571976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47032711976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47032861976F7D50041C9DA /* Build configuration list for PBXNativeTarget "Challenge_20140716_TableView_Dinamica2Tests" */;
+			buildPhases = (
+				A470326E1976F7D50041C9DA /* Sources */,
+				A470326F1976F7D50041C9DA /* Frameworks */,
+				A47032701976F7D50041C9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47032781976F7D50041C9DA /* PBXTargetDependency */,
+			);
+			name = Challenge_20140716_TableView_Dinamica2Tests;
+			productName = Challenge_20140716_TableView_Dinamica2Tests;
+			productReference = A47032721976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A470324F1976F7D40041C9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TMB;
+				TargetAttributes = {
+					A47032711976F7D50041C9DA = {
+						TestTargetID = A47032561976F7D40041C9DA;
+					};
+				};
+			};
+			buildConfigurationList = A47032521976F7D40041C9DA /* Build configuration list for PBXProject "Challenge_20140716_TableView_Dinamica2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A470324E1976F7D40041C9DA;
+			productRefGroup = A47032581976F7D40041C9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47032561976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2 */,
+				A47032711976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47032551976F7D40041C9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032BC1976FA1E0041C9DA /* miranda-lambert.jpg in Resources */,
+				A47032BE1976FA1E0041C9DA /* sara_evans.jpg in Resources */,
+				A47032B51976FA1E0041C9DA /* Barack-Obama.jpg in Resources */,
+				A47032BF1976FA1E0041C9DA /* steve_jobs.jpg in Resources */,
+				A47032C01976FA1E0041C9DA /* taylor-swift.jpg in Resources */,
+				A47032651976F7D40041C9DA /* InfoPlist.strings in Resources */,
+				A47032BD1976FA1E0041C9DA /* Patricia-Beck.jpg in Resources */,
+				A47032C21976FA260041C9DA /* contacts.plist in Resources */,
+				A47032B71976FA1E0041C9DA /* Brad-Paisley.jpg in Resources */,
+				A470326D1976F7D40041C9DA /* Images.xcassets in Resources */,
+				A47032B91976FA1E0041C9DA /* evangeline-lilly.jpg in Resources */,
+				A47032BB1976FA1E0041C9DA /* Mila-Kunis.jpg in Resources */,
+				A47032BA1976FA1E0041C9DA /* halle-berry.jpg in Resources */,
+				A47032B81976FA1E0041C9DA /* Brad-Pitt.jpg in Resources */,
+				A470328C1976F8310041C9DA /* Iphone.storyboard in Resources */,
+				A47032B61976FA1E0041C9DA /* bill-gates.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032701976F7D50041C9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470327E1976F7D50041C9DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47032531976F7D40041C9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470326B1976F7D40041C9DA /* TMBAppDelegate.m in Sources */,
+				A47032671976F7D40041C9DA /* main.m in Sources */,
+				A47032CB1976FB120041C9DA /* TMBContactTableViewCell.m in Sources */,
+				A47032C81976FADB0041C9DA /* TMBContactsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470326E1976F7D50041C9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032801976F7D50041C9DA /* Challenge_20140716_TableView_Dinamica2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47032781976F7D50041C9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47032561976F7D40041C9DA /* Challenge_20140716_TableView_Dinamica2 */;
+			targetProxy = A47032771976F7D50041C9DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47032631976F7D40041C9DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47032641976F7D40041C9DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A470327C1976F7D50041C9DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A470327D1976F7D50041C9DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47032811976F7D50041C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A47032821976F7D50041C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47032841976F7D50041C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Prefix.pch";
+				INFOPLIST_FILE = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A47032851976F7D50041C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Prefix.pch";
+				INFOPLIST_FILE = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A47032871976F7D50041C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Challenge_20140716_TableView_Dinamica2.app/Challenge_20140716_TableView_Dinamica2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Challenge_20140716_TableView_Dinamica2Tests/Challenge_20140716_TableView_Dinamica2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A47032881976F7D50041C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Challenge_20140716_TableView_Dinamica2.app/Challenge_20140716_TableView_Dinamica2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2-Prefix.pch";
+				INFOPLIST_FILE = "Challenge_20140716_TableView_Dinamica2Tests/Challenge_20140716_TableView_Dinamica2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47032521976F7D40041C9DA /* Build configuration list for PBXProject "Challenge_20140716_TableView_Dinamica2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032811976F7D50041C9DA /* Debug */,
+				A47032821976F7D50041C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47032831976F7D50041C9DA /* Build configuration list for PBXNativeTarget "Challenge_20140716_TableView_Dinamica2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032841976F7D50041C9DA /* Debug */,
+				A47032851976F7D50041C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A47032861976F7D50041C9DA /* Build configuration list for PBXNativeTarget "Challenge_20140716_TableView_Dinamica2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032871976F7D50041C9DA /* Debug */,
+				A47032881976F7D50041C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A470324F1976F7D40041C9DA /* Project object */;
+}
