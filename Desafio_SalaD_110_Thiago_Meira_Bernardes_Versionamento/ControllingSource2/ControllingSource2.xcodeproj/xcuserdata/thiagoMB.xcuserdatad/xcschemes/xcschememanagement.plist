@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ControllingSource.xcscheme</key>
+		<key>ControllingSource2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A4EC18EC1988144500D96725</key>
+		<key>A4EC19391988145F00D96725</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A4EC19181988144600D96725</key>
+		<key>A4EC19651988145F00D96725</key>
 		<dict>
 			<key>primary</key>
 			<true/>
