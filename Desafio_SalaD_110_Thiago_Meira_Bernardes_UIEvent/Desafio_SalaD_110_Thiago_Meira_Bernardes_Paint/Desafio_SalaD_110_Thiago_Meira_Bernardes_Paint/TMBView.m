@@ -46,6 +46,7 @@
         UISwipeGestureRecognizer *swipeUp = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeUp:)];
         swipeUp.numberOfTouchesRequired = 3;
         swipeUp.direction = UISwipeGestureRecognizerDirectionUp;
+        [self addGestureRecognizer:swipeUp];
         
 
         [self setUpDatabase];
@@ -131,6 +132,9 @@
 -(void)swipeUp:(UISwipeGestureRecognizer*)gestureRecognizer{
     
     NSLog(@"SwipeUp");
+    UISlider *slider;
+    
+    slider.value = TMBline
     
 }
 

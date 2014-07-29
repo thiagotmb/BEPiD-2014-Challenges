@@ -15,6 +15,7 @@
 @property (nonatomic) CGPoint begin;
 @property (nonatomic) CGPoint end;
 @property (nonatomic) NSInteger type;
+@property (nonatomic) CGFloat lineWidth;
 
 enum StrokeType : NSUInteger{
     

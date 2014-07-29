@@ -17,6 +17,7 @@
         self.begin = CGPointFromString([NSString stringWithFormat:@"%@",[coder decodeObjectForKey:@"begin"]]);
         self.end = CGPointFromString([NSString stringWithFormat:@"%@",[coder decodeObjectForKey:@"end"]]);
         self.type = [[coder decodeObjectForKey:@"type"] intValue];
+        self.lineWidth = [[coder decodeObjectForKey:@"lineWidth"] floatValue];
 
     }
     return self;
@@ -30,6 +31,7 @@
     [aCoder encodeObject:begin forKey:@"begin"];
     [aCoder encodeObject:end forKey:@"end"];
     [aCoder encodeObject:[NSString stringWithFormat:@"%ld",(long)self.type] forKey:@"type"];
+    [aCoder encodeObject:[NSString stringWithFormat:@"%.f forKey:<#(NSString *)#>]
 }
 
 
@@ -37,7 +39,7 @@
     
     UIBezierPath *currentPath = [UIBezierPath bezierPath];
     
-    currentPath.lineWidth  = 10;
+    currentPath.lineWidth  = _lineWidth;
     
     currentPath.lineCapStyle = kCGLineCapRound;
     

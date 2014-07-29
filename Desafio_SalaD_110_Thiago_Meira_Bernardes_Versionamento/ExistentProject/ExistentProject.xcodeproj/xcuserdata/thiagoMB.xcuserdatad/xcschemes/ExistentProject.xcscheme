@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4EC189F1988139500D96725"
-               BuildableName = "ControllingSource.app"
-               BlueprintName = "ControllingSource"
-               ReferencedContainer = "container:ControllingSource.xcodeproj">
+               BlueprintIdentifier = "A4EC1852198812B000D96725"
+               BuildableName = "ExistentProject.app"
+               BlueprintName = "ExistentProject"
+               ReferencedContainer = "container:ExistentProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4EC18CB1988139500D96725"
-               BuildableName = "ControllingSourceTests.xctest"
-               BlueprintName = "ControllingSourceTests"
-               ReferencedContainer = "container:ControllingSource.xcodeproj">
+               BlueprintIdentifier = "A4EC187E198812B000D96725"
+               BuildableName = "ExistentProjectTests.xctest"
+               BlueprintName = "ExistentProjectTests"
+               ReferencedContainer = "container:ExistentProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4EC189F1988139500D96725"
-            BuildableName = "ControllingSource.app"
-            BlueprintName = "ControllingSource"
-            ReferencedContainer = "container:ControllingSource.xcodeproj">
+            BlueprintIdentifier = "A4EC1852198812B000D96725"
+            BuildableName = "ExistentProject.app"
+            BlueprintName = "ExistentProject"
+            ReferencedContainer = "container:ExistentProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4EC189F1988139500D96725"
-            BuildableName = "ControllingSource.app"
-            BlueprintName = "ControllingSource"
-            ReferencedContainer = "container:ControllingSource.xcodeproj">
+            BlueprintIdentifier = "A4EC1852198812B000D96725"
+            BuildableName = "ExistentProject.app"
+            BlueprintName = "ExistentProject"
+            ReferencedContainer = "container:ExistentProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4EC189F1988139500D96725"
-            BuildableName = "ControllingSource.app"
-            BlueprintName = "ControllingSource"
-            ReferencedContainer = "container:ControllingSource.xcodeproj">
+            BlueprintIdentifier = "A4EC1852198812B000D96725"
+            BuildableName = "ExistentProject.app"
+            BlueprintName = "ExistentProject"
+            ReferencedContainer = "container:ExistentProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

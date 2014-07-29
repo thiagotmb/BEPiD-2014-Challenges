@@ -7,164 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4EC180A198810D600D96725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC1809198810D600D96725 /* Foundation.framework */; };
-		A4EC180C198810D600D96725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC180B198810D600D96725 /* CoreGraphics.framework */; };
-		A4EC180E198810D600D96725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC180D198810D600D96725 /* UIKit.framework */; };
-		A4EC1810198810D600D96725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC180F198810D600D96725 /* CoreData.framework */; };
-		A4EC1816198810D600D96725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EC1814198810D600D96725 /* InfoPlist.strings */; };
-		A4EC1818198810D600D96725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC1817198810D600D96725 /* main.m */; };
-		A4EC181C198810D600D96725 /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC181B198810D600D96725 /* TMBAppDelegate.m */; };
-		A4EC181F198810D600D96725 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC181D198810D600D96725 /* Main_iPhone.storyboard */; };
-		A4EC1822198810D600D96725 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC1820198810D600D96725 /* Main_iPad.storyboard */; };
-		A4EC1825198810D600D96725 /* ControllingSource.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4EC1823198810D600D96725 /* ControllingSource.xcdatamodeld */; };
-		A4EC1828198810D600D96725 /* TMBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC1827198810D600D96725 /* TMBMasterViewController.m */; };
-		A4EC182B198810D600D96725 /* TMBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC182A198810D600D96725 /* TMBDetailViewController.m */; };
-		A4EC182D198810D600D96725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EC182C198810D600D96725 /* Images.xcassets */; };
-		A4EC1834198810D600D96725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC1833198810D600D96725 /* XCTest.framework */; };
-		A4EC1835198810D600D96725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC1809198810D600D96725 /* Foundation.framework */; };
-		A4EC1836198810D600D96725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC180D198810D600D96725 /* UIKit.framework */; };
-		A4EC1837198810D600D96725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC180F198810D600D96725 /* CoreData.framework */; };
-		A4EC183F198810D600D96725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EC183D198810D600D96725 /* InfoPlist.strings */; };
-		A4EC1841198810D600D96725 /* ControllingSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC1840198810D600D96725 /* ControllingSourceTests.m */; };
+		A4EC18A41988139500D96725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A31988139500D96725 /* Foundation.framework */; };
+		A4EC18A61988139500D96725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A51988139500D96725 /* CoreGraphics.framework */; };
+		A4EC18A81988139500D96725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A71988139500D96725 /* UIKit.framework */; };
+		A4EC18AA1988139500D96725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A91988139500D96725 /* CoreData.framework */; };
+		A4EC18B01988139500D96725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EC18AE1988139500D96725 /* InfoPlist.strings */; };
+		A4EC18B21988139500D96725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18B11988139500D96725 /* main.m */; };
+		A4EC18B61988139500D96725 /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18B51988139500D96725 /* TMBAppDelegate.m */; };
+		A4EC18B91988139500D96725 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC18B71988139500D96725 /* Main_iPhone.storyboard */; };
+		A4EC18BC1988139500D96725 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC18BA1988139500D96725 /* Main_iPad.storyboard */; };
+		A4EC18BF1988139500D96725 /* ControllingSource.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18BD1988139500D96725 /* ControllingSource.xcdatamodeld */; };
+		A4EC18C21988139500D96725 /* TMBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18C11988139500D96725 /* TMBMasterViewController.m */; };
+		A4EC18C51988139500D96725 /* TMBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18C41988139500D96725 /* TMBDetailViewController.m */; };
+		A4EC18C71988139500D96725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EC18C61988139500D96725 /* Images.xcassets */; };
+		A4EC18CE1988139500D96725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18CD1988139500D96725 /* XCTest.framework */; };
+		A4EC18CF1988139500D96725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A31988139500D96725 /* Foundation.framework */; };
+		A4EC18D01988139500D96725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A71988139500D96725 /* UIKit.framework */; };
+		A4EC18D11988139500D96725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EC18A91988139500D96725 /* CoreData.framework */; };
+		A4EC18D91988139500D96725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EC18D71988139500D96725 /* InfoPlist.strings */; };
+		A4EC18DB1988139500D96725 /* ControllingSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC18DA1988139500D96725 /* ControllingSourceTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A4EC1838198810D600D96725 /* PBXContainerItemProxy */ = {
+		A4EC18D21988139500D96725 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A4EC17FE198810D600D96725 /* Project object */;
+			containerPortal = A4EC18981988139500D96725 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4EC1805198810D600D96725;
+			remoteGlobalIDString = A4EC189F1988139500D96725;
 			remoteInfo = ControllingSource;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A4EC1806198810D600D96725 /* ControllingSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllingSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4EC1809198810D600D96725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A4EC180B198810D600D96725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A4EC180D198810D600D96725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A4EC180F198810D600D96725 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A4EC1813198810D600D96725 /* ControllingSource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllingSource-Info.plist"; sourceTree = "<group>"; };
-		A4EC1815198810D600D96725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A4EC1817198810D600D96725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4EC1819198810D600D96725 /* ControllingSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControllingSource-Prefix.pch"; sourceTree = "<group>"; };
-		A4EC181A198810D600D96725 /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
-		A4EC181B198810D600D96725 /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
-		A4EC181E198810D600D96725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A4EC1821198810D600D96725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		A4EC1824198810D600D96725 /* ControllingSource.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ControllingSource.xcdatamodel; sourceTree = "<group>"; };
-		A4EC1826198810D600D96725 /* TMBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBMasterViewController.h; sourceTree = "<group>"; };
-		A4EC1827198810D600D96725 /* TMBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBMasterViewController.m; sourceTree = "<group>"; };
-		A4EC1829198810D600D96725 /* TMBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBDetailViewController.h; sourceTree = "<group>"; };
-		A4EC182A198810D600D96725 /* TMBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBDetailViewController.m; sourceTree = "<group>"; };
-		A4EC182C198810D600D96725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A4EC1832198810D600D96725 /* ControllingSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllingSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4EC1833198810D600D96725 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A4EC183C198810D600D96725 /* ControllingSourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllingSourceTests-Info.plist"; sourceTree = "<group>"; };
-		A4EC183E198810D600D96725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A4EC1840198810D600D96725 /* ControllingSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllingSourceTests.m; sourceTree = "<group>"; };
+		A4EC18A01988139500D96725 /* ControllingSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllingSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC18A31988139500D96725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4EC18A51988139500D96725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4EC18A71988139500D96725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4EC18A91988139500D96725 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4EC18AD1988139500D96725 /* ControllingSource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllingSource-Info.plist"; sourceTree = "<group>"; };
+		A4EC18AF1988139500D96725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4EC18B11988139500D96725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4EC18B31988139500D96725 /* ControllingSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControllingSource-Prefix.pch"; sourceTree = "<group>"; };
+		A4EC18B41988139500D96725 /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
+		A4EC18B51988139500D96725 /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
+		A4EC18B81988139500D96725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A4EC18BB1988139500D96725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A4EC18BE1988139500D96725 /* ControllingSource.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ControllingSource.xcdatamodel; sourceTree = "<group>"; };
+		A4EC18C01988139500D96725 /* TMBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBMasterViewController.h; sourceTree = "<group>"; };
+		A4EC18C11988139500D96725 /* TMBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBMasterViewController.m; sourceTree = "<group>"; };
+		A4EC18C31988139500D96725 /* TMBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBDetailViewController.h; sourceTree = "<group>"; };
+		A4EC18C41988139500D96725 /* TMBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBDetailViewController.m; sourceTree = "<group>"; };
+		A4EC18C61988139500D96725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4EC18CC1988139500D96725 /* ControllingSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllingSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC18CD1988139500D96725 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4EC18D61988139500D96725 /* ControllingSourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllingSourceTests-Info.plist"; sourceTree = "<group>"; };
+		A4EC18D81988139500D96725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4EC18DA1988139500D96725 /* ControllingSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllingSourceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4EC1803198810D600D96725 /* Frameworks */ = {
+		A4EC189D1988139500D96725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC180C198810D600D96725 /* CoreGraphics.framework in Frameworks */,
-				A4EC1810198810D600D96725 /* CoreData.framework in Frameworks */,
-				A4EC180E198810D600D96725 /* UIKit.framework in Frameworks */,
-				A4EC180A198810D600D96725 /* Foundation.framework in Frameworks */,
+				A4EC18A61988139500D96725 /* CoreGraphics.framework in Frameworks */,
+				A4EC18AA1988139500D96725 /* CoreData.framework in Frameworks */,
+				A4EC18A81988139500D96725 /* UIKit.framework in Frameworks */,
+				A4EC18A41988139500D96725 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EC182F198810D600D96725 /* Frameworks */ = {
+		A4EC18C91988139500D96725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC1834198810D600D96725 /* XCTest.framework in Frameworks */,
-				A4EC1837198810D600D96725 /* CoreData.framework in Frameworks */,
-				A4EC1836198810D600D96725 /* UIKit.framework in Frameworks */,
-				A4EC1835198810D600D96725 /* Foundation.framework in Frameworks */,
+				A4EC18CE1988139500D96725 /* XCTest.framework in Frameworks */,
+				A4EC18D11988139500D96725 /* CoreData.framework in Frameworks */,
+				A4EC18D01988139500D96725 /* UIKit.framework in Frameworks */,
+				A4EC18CF1988139500D96725 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A4EC17FD198810D600D96725 = {
+		A4EC18971988139500D96725 = {
 			isa = PBXGroup;
 			children = (
-				A4EC1811198810D600D96725 /* ControllingSource */,
-				A4EC183A198810D600D96725 /* ControllingSourceTests */,
-				A4EC1808198810D600D96725 /* Frameworks */,
-				A4EC1807198810D600D96725 /* Products */,
+				A4EC18AB1988139500D96725 /* ControllingSource */,
+				A4EC18D41988139500D96725 /* ControllingSourceTests */,
+				A4EC18A21988139500D96725 /* Frameworks */,
+				A4EC18A11988139500D96725 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4EC1807198810D600D96725 /* Products */ = {
+		A4EC18A11988139500D96725 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC1806198810D600D96725 /* ControllingSource.app */,
-				A4EC1832198810D600D96725 /* ControllingSourceTests.xctest */,
+				A4EC18A01988139500D96725 /* ControllingSource.app */,
+				A4EC18CC1988139500D96725 /* ControllingSourceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4EC1808198810D600D96725 /* Frameworks */ = {
+		A4EC18A21988139500D96725 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC1809198810D600D96725 /* Foundation.framework */,
-				A4EC180B198810D600D96725 /* CoreGraphics.framework */,
-				A4EC180D198810D600D96725 /* UIKit.framework */,
-				A4EC180F198810D600D96725 /* CoreData.framework */,
-				A4EC1833198810D600D96725 /* XCTest.framework */,
+				A4EC18A31988139500D96725 /* Foundation.framework */,
+				A4EC18A51988139500D96725 /* CoreGraphics.framework */,
+				A4EC18A71988139500D96725 /* UIKit.framework */,
+				A4EC18A91988139500D96725 /* CoreData.framework */,
+				A4EC18CD1988139500D96725 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A4EC1811198810D600D96725 /* ControllingSource */ = {
+		A4EC18AB1988139500D96725 /* ControllingSource */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC181A198810D600D96725 /* TMBAppDelegate.h */,
-				A4EC181B198810D600D96725 /* TMBAppDelegate.m */,
-				A4EC181D198810D600D96725 /* Main_iPhone.storyboard */,
-				A4EC1820198810D600D96725 /* Main_iPad.storyboard */,
-				A4EC1826198810D600D96725 /* TMBMasterViewController.h */,
-				A4EC1827198810D600D96725 /* TMBMasterViewController.m */,
-				A4EC1829198810D600D96725 /* TMBDetailViewController.h */,
-				A4EC182A198810D600D96725 /* TMBDetailViewController.m */,
-				A4EC182C198810D600D96725 /* Images.xcassets */,
-				A4EC1823198810D600D96725 /* ControllingSource.xcdatamodeld */,
-				A4EC1812198810D600D96725 /* Supporting Files */,
+				A4EC18B41988139500D96725 /* TMBAppDelegate.h */,
+				A4EC18B51988139500D96725 /* TMBAppDelegate.m */,
+				A4EC18B71988139500D96725 /* Main_iPhone.storyboard */,
+				A4EC18BA1988139500D96725 /* Main_iPad.storyboard */,
+				A4EC18C01988139500D96725 /* TMBMasterViewController.h */,
+				A4EC18C11988139500D96725 /* TMBMasterViewController.m */,
+				A4EC18C31988139500D96725 /* TMBDetailViewController.h */,
+				A4EC18C41988139500D96725 /* TMBDetailViewController.m */,
+				A4EC18C61988139500D96725 /* Images.xcassets */,
+				A4EC18BD1988139500D96725 /* ControllingSource.xcdatamodeld */,
+				A4EC18AC1988139500D96725 /* Supporting Files */,
 			);
 			path = ControllingSource;
 			sourceTree = "<group>";
 		};
-		A4EC1812198810D600D96725 /* Supporting Files */ = {
+		A4EC18AC1988139500D96725 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC1813198810D600D96725 /* ControllingSource-Info.plist */,
-				A4EC1814198810D600D96725 /* InfoPlist.strings */,
-				A4EC1817198810D600D96725 /* main.m */,
-				A4EC1819198810D600D96725 /* ControllingSource-Prefix.pch */,
+				A4EC18AD1988139500D96725 /* ControllingSource-Info.plist */,
+				A4EC18AE1988139500D96725 /* InfoPlist.strings */,
+				A4EC18B11988139500D96725 /* main.m */,
+				A4EC18B31988139500D96725 /* ControllingSource-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A4EC183A198810D600D96725 /* ControllingSourceTests */ = {
+		A4EC18D41988139500D96725 /* ControllingSourceTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC1840198810D600D96725 /* ControllingSourceTests.m */,
-				A4EC183B198810D600D96725 /* Supporting Files */,
+				A4EC18DA1988139500D96725 /* ControllingSourceTests.m */,
+				A4EC18D51988139500D96725 /* Supporting Files */,
 			);
 			path = ControllingSourceTests;
 			sourceTree = "<group>";
 		};
-		A4EC183B198810D600D96725 /* Supporting Files */ = {
+		A4EC18D51988139500D96725 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC183C198810D600D96725 /* ControllingSourceTests-Info.plist */,
-				A4EC183D198810D600D96725 /* InfoPlist.strings */,
+				A4EC18D61988139500D96725 /* ControllingSourceTests-Info.plist */,
+				A4EC18D71988139500D96725 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,13 +172,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4EC1805198810D600D96725 /* ControllingSource */ = {
+		A4EC189F1988139500D96725 /* ControllingSource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4EC1844198810D600D96725 /* Build configuration list for PBXNativeTarget "ControllingSource" */;
+			buildConfigurationList = A4EC18DE1988139500D96725 /* Build configuration list for PBXNativeTarget "ControllingSource" */;
 			buildPhases = (
-				A4EC1802198810D600D96725 /* Sources */,
-				A4EC1803198810D600D96725 /* Frameworks */,
-				A4EC1804198810D600D96725 /* Resources */,
+				A4EC189C1988139500D96725 /* Sources */,
+				A4EC189D1988139500D96725 /* Frameworks */,
+				A4EC189E1988139500D96725 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -186,43 +186,43 @@
 			);
 			name = ControllingSource;
 			productName = ControllingSource;
-			productReference = A4EC1806198810D600D96725 /* ControllingSource.app */;
+			productReference = A4EC18A01988139500D96725 /* ControllingSource.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A4EC1831198810D600D96725 /* ControllingSourceTests */ = {
+		A4EC18CB1988139500D96725 /* ControllingSourceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4EC1847198810D600D96725 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */;
+			buildConfigurationList = A4EC18E11988139500D96725 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */;
 			buildPhases = (
-				A4EC182E198810D600D96725 /* Sources */,
-				A4EC182F198810D600D96725 /* Frameworks */,
-				A4EC1830198810D600D96725 /* Resources */,
+				A4EC18C81988139500D96725 /* Sources */,
+				A4EC18C91988139500D96725 /* Frameworks */,
+				A4EC18CA1988139500D96725 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4EC1839198810D600D96725 /* PBXTargetDependency */,
+				A4EC18D31988139500D96725 /* PBXTargetDependency */,
 			);
 			name = ControllingSourceTests;
 			productName = ControllingSourceTests;
-			productReference = A4EC1832198810D600D96725 /* ControllingSourceTests.xctest */;
+			productReference = A4EC18CC1988139500D96725 /* ControllingSourceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A4EC17FE198810D600D96725 /* Project object */ = {
+		A4EC18981988139500D96725 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TMB;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = TMB;
 				TargetAttributes = {
-					A4EC1831198810D600D96725 = {
-						TestTargetID = A4EC1805198810D600D96725;
+					A4EC18CB1988139500D96725 = {
+						TestTargetID = A4EC189F1988139500D96725;
 					};
 				};
 			};
-			buildConfigurationList = A4EC1801198810D600D96725 /* Build configuration list for PBXProject "ControllingSource" */;
+			buildConfigurationList = A4EC189B1988139500D96725 /* Build configuration list for PBXProject "ControllingSource" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,99 +230,99 @@
 				en,
 				Base,
 			);
-			mainGroup = A4EC17FD198810D600D96725;
-			productRefGroup = A4EC1807198810D600D96725 /* Products */;
+			mainGroup = A4EC18971988139500D96725;
+			productRefGroup = A4EC18A11988139500D96725 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4EC1805198810D600D96725 /* ControllingSource */,
-				A4EC1831198810D600D96725 /* ControllingSourceTests */,
+				A4EC189F1988139500D96725 /* ControllingSource */,
+				A4EC18CB1988139500D96725 /* ControllingSourceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A4EC1804198810D600D96725 /* Resources */ = {
+		A4EC189E1988139500D96725 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC1822198810D600D96725 /* Main_iPad.storyboard in Resources */,
-				A4EC182D198810D600D96725 /* Images.xcassets in Resources */,
-				A4EC181F198810D600D96725 /* Main_iPhone.storyboard in Resources */,
-				A4EC1816198810D600D96725 /* InfoPlist.strings in Resources */,
+				A4EC18BC1988139500D96725 /* Main_iPad.storyboard in Resources */,
+				A4EC18C71988139500D96725 /* Images.xcassets in Resources */,
+				A4EC18B91988139500D96725 /* Main_iPhone.storyboard in Resources */,
+				A4EC18B01988139500D96725 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EC1830198810D600D96725 /* Resources */ = {
+		A4EC18CA1988139500D96725 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC183F198810D600D96725 /* InfoPlist.strings in Resources */,
+				A4EC18D91988139500D96725 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4EC1802198810D600D96725 /* Sources */ = {
+		A4EC189C1988139500D96725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC1825198810D600D96725 /* ControllingSource.xcdatamodeld in Sources */,
-				A4EC181C198810D600D96725 /* TMBAppDelegate.m in Sources */,
-				A4EC1828198810D600D96725 /* TMBMasterViewController.m in Sources */,
-				A4EC182B198810D600D96725 /* TMBDetailViewController.m in Sources */,
-				A4EC1818198810D600D96725 /* main.m in Sources */,
+				A4EC18BF1988139500D96725 /* ControllingSource.xcdatamodeld in Sources */,
+				A4EC18B61988139500D96725 /* TMBAppDelegate.m in Sources */,
+				A4EC18C21988139500D96725 /* TMBMasterViewController.m in Sources */,
+				A4EC18C51988139500D96725 /* TMBDetailViewController.m in Sources */,
+				A4EC18B21988139500D96725 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EC182E198810D600D96725 /* Sources */ = {
+		A4EC18C81988139500D96725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC1841198810D600D96725 /* ControllingSourceTests.m in Sources */,
+				A4EC18DB1988139500D96725 /* ControllingSourceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A4EC1839198810D600D96725 /* PBXTargetDependency */ = {
+		A4EC18D31988139500D96725 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4EC1805198810D600D96725 /* ControllingSource */;
-			targetProxy = A4EC1838198810D600D96725 /* PBXContainerItemProxy */;
+			target = A4EC189F1988139500D96725 /* ControllingSource */;
+			targetProxy = A4EC18D21988139500D96725 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4EC1814198810D600D96725 /* InfoPlist.strings */ = {
+		A4EC18AE1988139500D96725 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4EC1815198810D600D96725 /* en */,
+				A4EC18AF1988139500D96725 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A4EC181D198810D600D96725 /* Main_iPhone.storyboard */ = {
+		A4EC18B71988139500D96725 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4EC181E198810D600D96725 /* Base */,
+				A4EC18B81988139500D96725 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		A4EC1820198810D600D96725 /* Main_iPad.storyboard */ = {
+		A4EC18BA1988139500D96725 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4EC1821198810D600D96725 /* Base */,
+				A4EC18BB1988139500D96725 /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		A4EC183D198810D600D96725 /* InfoPlist.strings */ = {
+		A4EC18D71988139500D96725 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A4EC183E198810D600D96725 /* en */,
+				A4EC18D81988139500D96725 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A4EC1842198810D600D96725 /* Debug */ = {
+		A4EC18DC1988139500D96725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		A4EC1843198810D600D96725 /* Release */ = {
+		A4EC18DD1988139500D96725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +402,7 @@
 			};
 			name = Release;
 		};
-		A4EC1845198810D600D96725 /* Debug */ = {
+		A4EC18DF1988139500D96725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -415,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		A4EC1846198810D600D96725 /* Release */ = {
+		A4EC18E01988139500D96725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -428,7 +428,7 @@
 			};
 			name = Release;
 		};
-		A4EC1848198810D600D96725 /* Debug */ = {
+		A4EC18E21988139500D96725 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControllingSource.app/ControllingSource";
@@ -450,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		A4EC1849198810D600D96725 /* Release */ = {
+		A4EC18E31988139500D96725 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControllingSource.app/ControllingSource";
@@ -471,45 +471,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4EC1801198810D600D96725 /* Build configuration list for PBXProject "ControllingSource" */ = {
+		A4EC189B1988139500D96725 /* Build configuration list for PBXProject "ControllingSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4EC1842198810D600D96725 /* Debug */,
-				A4EC1843198810D600D96725 /* Release */,
+				A4EC18DC1988139500D96725 /* Debug */,
+				A4EC18DD1988139500D96725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4EC1844198810D600D96725 /* Build configuration list for PBXNativeTarget "ControllingSource" */ = {
+		A4EC18DE1988139500D96725 /* Build configuration list for PBXNativeTarget "ControllingSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4EC1845198810D600D96725 /* Debug */,
-				A4EC1846198810D600D96725 /* Release */,
+				A4EC18DF1988139500D96725 /* Debug */,
+				A4EC18E01988139500D96725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A4EC1847198810D600D96725 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
+		A4EC18E11988139500D96725 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4EC1848198810D600D96725 /* Debug */,
-				A4EC1849198810D600D96725 /* Release */,
+				A4EC18E21988139500D96725 /* Debug */,
+				A4EC18E31988139500D96725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A4EC1823198810D600D96725 /* ControllingSource.xcdatamodeld */ = {
+		A4EC18BD1988139500D96725 /* ControllingSource.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A4EC1824198810D600D96725 /* ControllingSource.xcdatamodel */,
+				A4EC18BE1988139500D96725 /* ControllingSource.xcdatamodel */,
 			);
-			currentVersion = A4EC1824198810D600D96725 /* ControllingSource.xcdatamodel */;
+			currentVersion = A4EC18BE1988139500D96725 /* ControllingSource.xcdatamodel */;
 			path = ControllingSource.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A4EC17FE198810D600D96725 /* Project object */;
+	rootObject = A4EC18981988139500D96725 /* Project object */;
 }
