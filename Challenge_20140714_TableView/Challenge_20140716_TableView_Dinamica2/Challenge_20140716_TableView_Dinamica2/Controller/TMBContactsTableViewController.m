@@ -78,6 +78,22 @@
 }
 
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if([segue.identifier isEqualToString:@"showContactDetails"]){
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        self.currentContact = [self.allContacts objectAtIndex:indexPath.row];
+        
+        TMBContactViewController *destineViewController = segue.destinationViewController;
+        destineViewController.firstName = self.currentContact[@"firstName"];
+        destineViewController.lastName = self.currentContact[@"lastName"];
+        destineViewController.imageName = self.currentContact[@"imageName"];
+        
+    }
+}
+
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

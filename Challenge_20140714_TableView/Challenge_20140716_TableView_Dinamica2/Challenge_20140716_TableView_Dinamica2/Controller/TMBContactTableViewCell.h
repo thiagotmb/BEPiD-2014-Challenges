@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TMBContactViewController.h"
 
 @interface TMBContactTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *contactFirstName;

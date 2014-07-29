@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A453CD151986C87F008D9BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD141986C87F008D9BDB /* Foundation.framework */; };
+		A453CD171986C87F008D9BDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD161986C87F008D9BDB /* CoreGraphics.framework */; };
+		A453CD191986C87F008D9BDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD181986C87F008D9BDB /* UIKit.framework */; };
+		A453CD1F1986C87F008D9BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A453CD1D1986C87F008D9BDB /* InfoPlist.strings */; };
+		A453CD211986C87F008D9BDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A453CD201986C87F008D9BDB /* main.m */; };
+		A453CD251986C87F008D9BDB /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A453CD241986C87F008D9BDB /* TMBAppDelegate.m */; };
+		A453CD281986C87F008D9BDB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A453CD261986C87F008D9BDB /* Main_iPhone.storyboard */; };
+		A453CD2B1986C87F008D9BDB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A453CD291986C87F008D9BDB /* Main_iPad.storyboard */; };
+		A453CD2E1986C87F008D9BDB /* TMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A453CD2D1986C87F008D9BDB /* TMBViewController.m */; };
+		A453CD301986C87F008D9BDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A453CD2F1986C87F008D9BDB /* Images.xcassets */; };
+		A453CD371986C87F008D9BDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD361986C87F008D9BDB /* XCTest.framework */; };
+		A453CD381986C880008D9BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD141986C87F008D9BDB /* Foundation.framework */; };
+		A453CD391986C880008D9BDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A453CD181986C87F008D9BDB /* UIKit.framework */; };
+		A453CD411986C880008D9BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A453CD3F1986C880008D9BDB /* InfoPlist.strings */; };
+		A453CD431986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A453CD421986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A453CD3A1986C880008D9BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A453CD091986C87F008D9BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A453CD101986C87F008D9BDB;
+			remoteInfo = Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A453CD111986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A453CD141986C87F008D9BDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A453CD161986C87F008D9BDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A453CD181986C87F008D9BDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A453CD1C1986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Info.plist"; sourceTree = "<group>"; };
+		A453CD1E1986C87F008D9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A453CD201986C87F008D9BDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A453CD221986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch"; sourceTree = "<group>"; };
+		A453CD231986C87F008D9BDB /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
+		A453CD241986C87F008D9BDB /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
+		A453CD271986C87F008D9BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A453CD2A1986C87F008D9BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A453CD2C1986C87F008D9BDB /* TMBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBViewController.h; sourceTree = "<group>"; };
+		A453CD2D1986C87F008D9BDB /* TMBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBViewController.m; sourceTree = "<group>"; };
+		A453CD2F1986C87F008D9BDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A453CD351986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A453CD361986C87F008D9BDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A453CD3E1986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests-Info.plist"; sourceTree = "<group>"; };
+		A453CD401986C880008D9BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A453CD421986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A453CD0E1986C87F008D9BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD171986C87F008D9BDB /* CoreGraphics.framework in Frameworks */,
+				A453CD191986C87F008D9BDB /* UIKit.framework in Frameworks */,
+				A453CD151986C87F008D9BDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A453CD321986C87F008D9BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD371986C87F008D9BDB /* XCTest.framework in Frameworks */,
+				A453CD391986C880008D9BDB /* UIKit.framework in Frameworks */,
+				A453CD381986C880008D9BDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A453CD081986C87F008D9BDB = {
+			isa = PBXGroup;
+			children = (
+				A453CD1A1986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo */,
+				A453CD3C1986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests */,
+				A453CD131986C87F008D9BDB /* Frameworks */,
+				A453CD121986C87F008D9BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A453CD121986C87F008D9BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD111986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app */,
+				A453CD351986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A453CD131986C87F008D9BDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD141986C87F008D9BDB /* Foundation.framework */,
+				A453CD161986C87F008D9BDB /* CoreGraphics.framework */,
+				A453CD181986C87F008D9BDB /* UIKit.framework */,
+				A453CD361986C87F008D9BDB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A453CD1A1986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD231986C87F008D9BDB /* TMBAppDelegate.h */,
+				A453CD241986C87F008D9BDB /* TMBAppDelegate.m */,
+				A453CD261986C87F008D9BDB /* Main_iPhone.storyboard */,
+				A453CD291986C87F008D9BDB /* Main_iPad.storyboard */,
+				A453CD2C1986C87F008D9BDB /* TMBViewController.h */,
+				A453CD2D1986C87F008D9BDB /* TMBViewController.m */,
+				A453CD2F1986C87F008D9BDB /* Images.xcassets */,
+				A453CD1B1986C87F008D9BDB /* Supporting Files */,
+			);
+			path = Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo;
+			sourceTree = "<group>";
+		};
+		A453CD1B1986C87F008D9BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD1C1986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Info.plist */,
+				A453CD1D1986C87F008D9BDB /* InfoPlist.strings */,
+				A453CD201986C87F008D9BDB /* main.m */,
+				A453CD221986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A453CD3C1986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD421986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m */,
+				A453CD3D1986C880008D9BDB /* Supporting Files */,
+			);
+			path = Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests;
+			sourceTree = "<group>";
+		};
+		A453CD3D1986C880008D9BDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A453CD3E1986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests-Info.plist */,
+				A453CD3F1986C880008D9BDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A453CD101986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A453CD461986C880008D9BDB /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo" */;
+			buildPhases = (
+				A453CD0D1986C87F008D9BDB /* Sources */,
+				A453CD0E1986C87F008D9BDB /* Frameworks */,
+				A453CD0F1986C87F008D9BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo;
+			productName = Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo;
+			productReference = A453CD111986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A453CD341986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A453CD491986C880008D9BDB /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests" */;
+			buildPhases = (
+				A453CD311986C87F008D9BDB /* Sources */,
+				A453CD321986C87F008D9BDB /* Frameworks */,
+				A453CD331986C87F008D9BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A453CD3B1986C880008D9BDB /* PBXTargetDependency */,
+			);
+			name = Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests;
+			productName = Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests;
+			productReference = A453CD351986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A453CD091986C87F008D9BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TMB;
+				TargetAttributes = {
+					A453CD341986C87F008D9BDB = {
+						TestTargetID = A453CD101986C87F008D9BDB;
+					};
+				};
+			};
+			buildConfigurationList = A453CD0C1986C87F008D9BDB /* Build configuration list for PBXProject "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A453CD081986C87F008D9BDB;
+			productRefGroup = A453CD121986C87F008D9BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A453CD101986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo */,
+				A453CD341986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A453CD0F1986C87F008D9BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD2B1986C87F008D9BDB /* Main_iPad.storyboard in Resources */,
+				A453CD301986C87F008D9BDB /* Images.xcassets in Resources */,
+				A453CD281986C87F008D9BDB /* Main_iPhone.storyboard in Resources */,
+				A453CD1F1986C87F008D9BDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A453CD331986C87F008D9BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD411986C880008D9BDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A453CD0D1986C87F008D9BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD2E1986C87F008D9BDB /* TMBViewController.m in Sources */,
+				A453CD251986C87F008D9BDB /* TMBAppDelegate.m in Sources */,
+				A453CD211986C87F008D9BDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A453CD311986C87F008D9BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A453CD431986C880008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A453CD3B1986C880008D9BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A453CD101986C87F008D9BDB /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo */;
+			targetProxy = A453CD3A1986C880008D9BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A453CD1D1986C87F008D9BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A453CD1E1986C87F008D9BDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A453CD261986C87F008D9BDB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A453CD271986C87F008D9BDB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A453CD291986C87F008D9BDB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A453CD2A1986C87F008D9BDB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A453CD3F1986C880008D9BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A453CD401986C880008D9BDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A453CD441986C880008D9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A453CD451986C880008D9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A453CD471986C880008D9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A453CD481986C880008D9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A453CD4A1986C880008D9BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests/Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A453CD4B1986C880008D9BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo.app/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo/Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests/Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A453CD0C1986C87F008D9BDB /* Build configuration list for PBXProject "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A453CD441986C880008D9BDB /* Debug */,
+				A453CD451986C880008D9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A453CD461986C880008D9BDB /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_Exemplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A453CD471986C880008D9BDB /* Debug */,
+				A453CD481986C880008D9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A453CD491986C880008D9BDB /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_ExemploTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A453CD4A1986C880008D9BDB /* Debug */,
+				A453CD4B1986C880008D9BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A453CD091986C87F008D9BDB /* Project object */;
+}

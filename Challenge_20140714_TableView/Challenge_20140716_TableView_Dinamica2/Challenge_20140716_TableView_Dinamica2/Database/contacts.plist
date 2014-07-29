@@ -12,6 +12,14 @@
 	</dict>
 	<dict>
 		<key>firstName</key>
+		<string>Thiago</string>
+		<key>lastName</key>
+		<string>Bernardes</string>
+		<key>imageName</key>
+		<string>Profile1.jpg</string>
+	</dict>
+	<dict>
+		<key>firstName</key>
 		<string>Halle</string>
 		<key>lastName</key>
 		<string>Berry</string>

@@ -35,6 +35,8 @@
 		A47032C21976FA260041C9DA /* contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47032C11976FA260041C9DA /* contacts.plist */; };
 		A47032C81976FADB0041C9DA /* TMBContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */; };
 		A47032CB1976FB120041C9DA /* TMBContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */; };
+		A470331219770AAB0041C9DA /* TMBContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A470331119770AAB0041C9DA /* TMBContactViewController.m */; };
+		A4703314197716820041C9DA /* Profile1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4703313197716820041C9DA /* Profile1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,9 @@
 		A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBContactsTableViewController.m; sourceTree = "<group>"; };
 		A47032C91976FB120041C9DA /* TMBContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBContactTableViewCell.h; sourceTree = "<group>"; };
 		A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBContactTableViewCell.m; sourceTree = "<group>"; };
+		A470331019770AAB0041C9DA /* TMBContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBContactViewController.h; sourceTree = "<group>"; };
+		A470331119770AAB0041C9DA /* TMBContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBContactViewController.m; sourceTree = "<group>"; };
+		A4703313197716820041C9DA /* Profile1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Profile1.jpg; path = Images/Profile1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +194,8 @@
 				A47032C71976FADB0041C9DA /* TMBContactsTableViewController.m */,
 				A47032C91976FB120041C9DA /* TMBContactTableViewCell.h */,
 				A47032CA1976FB120041C9DA /* TMBContactTableViewCell.m */,
+				A470331019770AAB0041C9DA /* TMBContactViewController.h */,
+				A470331119770AAB0041C9DA /* TMBContactViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,6 +211,7 @@
 		A470328D1976F94F0041C9DA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A4703313197716820041C9DA /* Profile1.jpg */,
 				A47032A91976FA1E0041C9DA /* Barack-Obama.jpg */,
 				A47032AA1976FA1E0041C9DA /* bill-gates.jpg */,
 				A47032AB1976FA1E0041C9DA /* Brad-Paisley.jpg */,
@@ -319,6 +327,7 @@
 				A47032BA1976FA1E0041C9DA /* halle-berry.jpg in Resources */,
 				A47032B81976FA1E0041C9DA /* Brad-Pitt.jpg in Resources */,
 				A470328C1976F8310041C9DA /* Iphone.storyboard in Resources */,
+				A4703314197716820041C9DA /* Profile1.jpg in Resources */,
 				A47032B61976FA1E0041C9DA /* bill-gates.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A470326B1976F7D40041C9DA /* TMBAppDelegate.m in Sources */,
+				A470331219770AAB0041C9DA /* TMBContactViewController.m in Sources */,
 				A47032671976F7D40041C9DA /* main.m in Sources */,
 				A47032CB1976FB120041C9DA /* TMBContactTableViewCell.m in Sources */,
 				A47032C81976FADB0041C9DA /* TMBContactsTableViewController.m in Sources */,
