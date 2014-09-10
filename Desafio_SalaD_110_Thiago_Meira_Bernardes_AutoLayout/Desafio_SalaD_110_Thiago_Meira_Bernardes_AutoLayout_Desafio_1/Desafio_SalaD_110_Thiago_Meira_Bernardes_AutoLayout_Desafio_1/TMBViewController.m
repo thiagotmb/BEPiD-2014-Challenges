@@ -32,11 +32,30 @@
 }
 
 - (IBAction)changeViewPoints:(id)sender {
-    if (!_thisChanged) {
-        _viewHeight.constant = 50.0f;
+    if (!_thisChanged){
+        
+        [UIView animateWithDuration:1.0
+                              delay:0.0
+                            options:UIViewAnimationOptionCurveEaseOut
+                         animations:^{
+                             _viewHeight.constant = 50.0f;
+                             [self.view layoutIfNeeded];
+
+                         }
+                         completion:nil];
+
+        
         _thisChanged = YES;
     }else{
-        _viewHeight.constant = 120.0f;
+        [UIView animateWithDuration:1.0
+                              delay:0.0
+                            options:UIViewAnimationOptionCurveEaseOut
+                         animations:^{
+                             _viewHeight.constant = 120.0f;
+                             [self.view layoutIfNeeded];
+                             
+                         }
+                         completion:nil];
         _thisChanged = NO;
     }
 }

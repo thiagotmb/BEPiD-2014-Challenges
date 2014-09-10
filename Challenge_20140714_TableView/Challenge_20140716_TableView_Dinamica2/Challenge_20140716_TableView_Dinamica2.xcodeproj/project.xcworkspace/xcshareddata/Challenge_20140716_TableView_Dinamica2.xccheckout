@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8DFA81A9-1926-4CB4-B892-93C5443D293A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Challenge_20140716_TableView_Dinamica2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6F9B9937-B97C-4D62-82F6-1E50FE6CD763</key>
+		<string>https://github.com/thiagotmb/Challenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Challenge_20140714_TableView/Challenge_20140716_TableView_Dinamica2/Challenge_20140716_TableView_Dinamica2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6F9B9937-B97C-4D62-82F6-1E50FE6CD763</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thiagotmb/Challenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F9B9937-B97C-4D62-82F6-1E50FE6CD763</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F9B9937-B97C-4D62-82F6-1E50FE6CD763</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Challenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>
