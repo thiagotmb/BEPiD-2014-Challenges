@@ -58,4 +58,21 @@
     return self;
     
 }
+
+-(void)removeItemAtIndex:(NSInteger)index{
+    
+    [self.privateItems removeObjectAtIndex:index];
+    
+}
+
+-(void)moveItemFrom:(NSInteger)currentIndex to:(NSInteger)destineIndex{
+    
+    TMBItem* item = [self.privateItems objectAtIndex:currentIndex];
+    
+    [self.privateItems removeObjectAtIndex:currentIndex];
+    
+    [self.privateItems insertObject:item atIndex:destineIndex];
+    
+}
+
 @end

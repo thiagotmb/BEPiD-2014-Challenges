@@ -39,12 +39,48 @@
         [self.itemStore createItem];
 
     }
+        
+    
+    UIBarButtonItem *addNewItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewItem)];
+    UIBarButtonItem *editItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editTheItems)];
+    
+    NSArray* barButtomItens = @[addNewItem,editItem];
+    
+    self.navigationItem.rightBarButtonItems = barButtomItens;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateItem:) name:@"ItemChanged" object:nil];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+
+-(void)addNewItem{
+    
+    [self.itemStore createItem];
+    [self.tableView reloadData];
+}
+
+-(void)editTheItems{
+    
+    if (self.tableView.editing) {
+        [self.tableView setEditing:NO];
+    }else
+    {
+        [self.tableView setEditing:YES];
+    }
+}
+
+-(void)updateItem:(NSNotificationCenter*)aNotification{
+    
+    
+    NSIndexPath *currentIndex = [self.tableView indexPathForSelectedRow] ;
+    [self.tableView reloadData];
+    [self.tableView selectRowAtIndexPath:currentIndex animated:YES scrollPosition:UITableViewScrollPositionNone];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -96,56 +132,57 @@
         [self.navigationController pushViewController:self.detailViewController animated:YES];
 
     }else{
-        
-        self.splitViewController.viewControllers = @[self.navigationController,self.detailViewController];
         [self.detailViewController viewWillAppear:YES];
     }
     
     
 }
 
--(void)splitViewController:(UISplitViewController *)svc popoverController:(UIPopoverController *)pc willPresentViewController:(UIViewController *)aViewController{
-    
-    
-}
 
-/*
+
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
  {
- // Return NO if you do not want the specified item to be editable.
- return YES;
+     // Return NO if you do not want the specified item to be editable.
+     return YES;
  }
- */
 
-/*
+
+
  // Override to support editing the table view.
  - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
  {
- if (editingStyle == UITableViewCellEditingStyleDelete) {
- // Delete the row from the data source
- [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
- } else if (editingStyle == UITableViewCellEditingStyleInsert) {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+     if (editingStyle == UITableViewCellEditingStyleDelete) {
+         // Delete the row from the data source
+         
+         [self.itemStore removeItemAtIndex:indexPath.row];
+         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+         
+     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+     }
  }
- }
- */
 
-/*
+
+
  // Override to support rearranging the table view.
  - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
  {
+     
+     [self.itemStore moveItemFrom:fromIndexPath.row to:toIndexPath.row];
+    
+     
  }
- */
 
-/*
+
+
  // Override to support conditional rearranging of the table view.
  - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
  {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
+     // Return NO if you do not want the item to be re-orderable.
+     return YES;
  }
- */
+
 
 /*
  #pragma mark - Navigation

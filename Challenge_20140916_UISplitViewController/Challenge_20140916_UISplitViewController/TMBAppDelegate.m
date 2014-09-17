@@ -36,6 +36,7 @@
         UISplitViewController* splitViewController = [[UISplitViewController alloc] init];
         
         splitViewController.viewControllers = @[masterNavigation,detailNavigation];
+        splitViewController.delegate = detailViewController;
         
         self.window.rootViewController = splitViewController;
 
@@ -48,6 +49,7 @@
 
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
