@@ -8,7 +8,6 @@
             <connections>
                 <outlet property="dateLabel" destination="ibq-Be-axA" id="DNd-h6-n5s"/>
                 <outlet property="nameField" destination="fpe-lL-k9Z" id="dcw-98-3kh"/>
-                <outlet property="ownerField" destination="Dav-mI-rca" id="qCg-7t-hyn"/>
                 <outlet property="serialNumberField" destination="h5Z-fu-WiN" id="xCM-8g-lPh"/>
                 <outlet property="valueField" destination="h1m-ch-uz3" id="ndX-yV-XJC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -62,19 +61,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jg-HX-Fdt">
-                    <rect key="frame" x="20" y="122" width="51" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dav-mI-rca">
-                    <rect key="frame" x="79" y="118" width="211" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -82,28 +68,21 @@
                 <constraint firstItem="h7d-Sw-1WI" firstAttribute="top" secondItem="pU3-Gf-e64" secondAttribute="bottom" constant="27" id="2Tc-BV-NFX"/>
                 <constraint firstItem="9c4-fp-hQ5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="164" id="2fZ-T3-AbS"/>
                 <constraint firstItem="h1m-ch-uz3" firstAttribute="leading" secondItem="h7d-Sw-1WI" secondAttribute="trailing" constant="17" id="3Xg-ts-T1e"/>
-                <constraint firstItem="Dav-mI-rca" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="118" id="4gG-m6-NhP"/>
                 <constraint firstItem="h5Z-fu-WiN" firstAttribute="top" secondItem="fpe-lL-k9Z" secondAttribute="bottom" constant="19" id="8wU-29-tG5"/>
                 <constraint firstItem="h1m-ch-uz3" firstAttribute="top" secondItem="h5Z-fu-WiN" secondAttribute="bottom" constant="18" id="A4W-Xc-rCH"/>
                 <constraint firstItem="ibq-Be-axA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="322" id="BEF-eW-OxB"/>
-                <constraint firstItem="fpe-lL-k9Z" firstAttribute="top" secondItem="Dav-mI-rca" secondAttribute="bottom" constant="13" id="EAq-Ty-vMH"/>
                 <constraint firstItem="ibq-Be-axA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="61" id="GMY-5Q-i6y"/>
                 <constraint firstAttribute="trailing" secondItem="fpe-lL-k9Z" secondAttribute="trailing" constant="30" id="K1m-zU-ncB"/>
                 <constraint firstAttribute="trailing" secondItem="ibq-Be-axA" secondAttribute="trailing" constant="64" id="N6R-zx-InE"/>
                 <constraint firstItem="h7d-Sw-1WI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="SPz-ev-kyw"/>
                 <constraint firstAttribute="bottom" secondItem="ibq-Be-axA" secondAttribute="bottom" constant="225" id="YGP-nW-nXj"/>
-                <constraint firstItem="5jg-HX-Fdt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="aQB-Gh-GuM"/>
                 <constraint firstItem="pU3-Gf-e64" firstAttribute="top" secondItem="9c4-fp-hQ5" secondAttribute="bottom" constant="29" id="bZt-vk-hLv"/>
-                <constraint firstAttribute="trailing" secondItem="Dav-mI-rca" secondAttribute="trailing" constant="30" id="eU6-Uz-7Yz"/>
                 <constraint firstItem="pU3-Gf-e64" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="eor-JF-vYl"/>
                 <constraint firstItem="h5Z-fu-WiN" firstAttribute="leading" secondItem="pU3-Gf-e64" secondAttribute="trailing" constant="16" id="iTU-hf-d8k"/>
-                <constraint firstItem="9c4-fp-hQ5" firstAttribute="top" secondItem="5jg-HX-Fdt" secondAttribute="bottom" constant="21" id="jsX-yY-tzR"/>
                 <constraint firstAttribute="trailing" secondItem="h1m-ch-uz3" secondAttribute="trailing" constant="30" id="jta-hw-oHq"/>
                 <constraint firstAttribute="trailing" secondItem="h5Z-fu-WiN" secondAttribute="trailing" constant="30" id="k92-Tk-tXt"/>
                 <constraint firstItem="9c4-fp-hQ5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="npP-oj-v2D"/>
-                <constraint firstItem="5jg-HX-Fdt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="122" id="puj-BZ-zwQ"/>
                 <constraint firstItem="fpe-lL-k9Z" firstAttribute="leading" secondItem="9c4-fp-hQ5" secondAttribute="trailing" constant="13" id="rM8-Mt-J2r"/>
-                <constraint firstItem="Dav-mI-rca" firstAttribute="leading" secondItem="5jg-HX-Fdt" secondAttribute="trailing" constant="8" id="xfO-IF-ey9"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

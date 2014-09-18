@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4BFE7D919CB596E0070C1A7 /* splitVewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4BFE7D719CB596E0070C1A7 /* splitVewController.xcdatamodeld */; };
-		A4BFE7DF19CB5C060070C1A7 /* TMBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BFE7DE19CB5C060070C1A7 /* TMBItem.m */; };
 		A4FCE5BB19C8AFE6004A49EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5BA19C8AFE6004A49EB /* Foundation.framework */; };
 		A4FCE5BD19C8AFE6004A49EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5BC19C8AFE6004A49EB /* CoreGraphics.framework */; };
 		A4FCE5BF19C8AFE6004A49EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5BE19C8AFE6004A49EB /* UIKit.framework */; };
@@ -16,6 +14,7 @@
 		A4FCE5C719C8AFE6004A49EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4FCE5C519C8AFE6004A49EB /* InfoPlist.strings */; };
 		A4FCE5C919C8AFE6004A49EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5C819C8AFE6004A49EB /* main.m */; };
 		A4FCE5CD19C8AFE6004A49EB /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5CC19C8AFE6004A49EB /* TMBAppDelegate.m */; };
+		A4FCE5D019C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5CE19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodeld */; };
 		A4FCE5D219C8AFE6004A49EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FCE5D119C8AFE6004A49EB /* Images.xcassets */; };
 		A4FCE5D919C8AFE6004A49EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5D819C8AFE6004A49EB /* XCTest.framework */; };
 		A4FCE5DA19C8AFE6004A49EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5BA19C8AFE6004A49EB /* Foundation.framework */; };
@@ -23,6 +22,7 @@
 		A4FCE5DC19C8AFE6004A49EB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCE5C019C8AFE6004A49EB /* CoreData.framework */; };
 		A4FCE5E419C8AFE6004A49EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4FCE5E219C8AFE6004A49EB /* InfoPlist.strings */; };
 		A4FCE5E619C8AFE6004A49EB /* Challenge_20140916_UISplitViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5E519C8AFE6004A49EB /* Challenge_20140916_UISplitViewControllerTests.m */; };
+		A4FCE5F419C8B071004A49EB /* TMBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5F319C8B071004A49EB /* TMBItem.m */; };
 		A4FCE5F719C8B97C004A49EB /* TMBItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5F619C8B97C004A49EB /* TMBItemStore.m */; };
 		A4FCE5FB19C8BE28004A49EB /* TMBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FCE5F919C8BE28004A49EB /* TMBDetailViewController.m */; };
 		A4FCE5FC19C8BE28004A49EB /* TMBDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FCE5FA19C8BE28004A49EB /* TMBDetailViewController.xib */; };
@@ -40,9 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A4BFE7D819CB596E0070C1A7 /* splitVewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = splitVewController.xcdatamodel; sourceTree = "<group>"; };
-		A4BFE7DD19CB5C060070C1A7 /* TMBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBItem.h; sourceTree = "<group>"; };
-		A4BFE7DE19CB5C060070C1A7 /* TMBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBItem.m; sourceTree = "<group>"; };
 		A4FCE5B719C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge_20140916_UISplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FCE5BA19C8AFE6004A49EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4FCE5BC19C8AFE6004A49EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,12 +51,15 @@
 		A4FCE5CA19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenge_20140916_UISplitViewController-Prefix.pch"; sourceTree = "<group>"; };
 		A4FCE5CB19C8AFE6004A49EB /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
 		A4FCE5CC19C8AFE6004A49EB /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
+		A4FCE5CF19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge_20140916_UISplitViewController.xcdatamodel; sourceTree = "<group>"; };
 		A4FCE5D119C8AFE6004A49EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A4FCE5D719C8AFE6004A49EB /* Challenge_20140916_UISplitViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge_20140916_UISplitViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FCE5D819C8AFE6004A49EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A4FCE5E119C8AFE6004A49EB /* Challenge_20140916_UISplitViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Challenge_20140916_UISplitViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		A4FCE5E319C8AFE6004A49EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4FCE5E519C8AFE6004A49EB /* Challenge_20140916_UISplitViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge_20140916_UISplitViewControllerTests.m; sourceTree = "<group>"; };
+		A4FCE5F219C8B071004A49EB /* TMBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBItem.h; sourceTree = "<group>"; };
+		A4FCE5F319C8B071004A49EB /* TMBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBItem.m; sourceTree = "<group>"; };
 		A4FCE5F519C8B97C004A49EB /* TMBItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBItemStore.h; sourceTree = "<group>"; };
 		A4FCE5F619C8B97C004A49EB /* TMBItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBItemStore.m; sourceTree = "<group>"; };
 		A4FCE5F819C8BE28004A49EB /* TMBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBDetailViewController.h; sourceTree = "<group>"; };
@@ -131,6 +131,8 @@
 			children = (
 				A4FCE5CB19C8AFE6004A49EB /* TMBAppDelegate.h */,
 				A4FCE5CC19C8AFE6004A49EB /* TMBAppDelegate.m */,
+				A4FCE5F219C8B071004A49EB /* TMBItem.h */,
+				A4FCE5F319C8B071004A49EB /* TMBItem.m */,
 				A4FCE5F519C8B97C004A49EB /* TMBItemStore.h */,
 				A4FCE5F619C8B97C004A49EB /* TMBItemStore.m */,
 				A4FCE5F819C8BE28004A49EB /* TMBDetailViewController.h */,
@@ -139,10 +141,8 @@
 				A4FCE60019C8C7AB004A49EB /* TMBTableViewController.h */,
 				A4FCE60119C8C7AB004A49EB /* TMBTableViewController.m */,
 				A4FCE5D119C8AFE6004A49EB /* Images.xcassets */,
+				A4FCE5CE19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodeld */,
 				A4FCE5C319C8AFE6004A49EB /* Supporting Files */,
-				A4BFE7D719CB596E0070C1A7 /* splitVewController.xcdatamodeld */,
-				A4BFE7DD19CB5C060070C1A7 /* TMBItem.h */,
-				A4BFE7DE19CB5C060070C1A7 /* TMBItem.m */,
 			);
 			path = Challenge_20140916_UISplitViewController;
 			sourceTree = "<group>";
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4BFE7DF19CB5C060070C1A7 /* TMBItem.m in Sources */,
 				A4FCE5CD19C8AFE6004A49EB /* TMBAppDelegate.m in Sources */,
-				A4BFE7D919CB596E0070C1A7 /* splitVewController.xcdatamodeld in Sources */,
+				A4FCE5D019C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodeld in Sources */,
+				A4FCE5F419C8B071004A49EB /* TMBItem.m in Sources */,
 				A4FCE5C919C8AFE6004A49EB /* main.m in Sources */,
 				A4FCE5F719C8B97C004A49EB /* TMBItemStore.m in Sources */,
 				A4FCE60319C8C7AB004A49EB /* TMBTableViewController.m in Sources */,
@@ -478,7 +478,6 @@
 				A4FCE5EB19C8AFE6004A49EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		A4FCE5EC19C8AFE6004A49EB /* Build configuration list for PBXNativeTarget "Challenge_20140916_UISplitViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -487,18 +486,17 @@
 				A4FCE5EE19C8AFE6004A49EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A4BFE7D719CB596E0070C1A7 /* splitVewController.xcdatamodeld */ = {
+		A4FCE5CE19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A4BFE7D819CB596E0070C1A7 /* splitVewController.xcdatamodel */,
+				A4FCE5CF19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodel */,
 			);
-			currentVersion = A4BFE7D819CB596E0070C1A7 /* splitVewController.xcdatamodel */;
-			path = splitVewController.xcdatamodeld;
+			currentVersion = A4FCE5CF19C8AFE6004A49EB /* Challenge_20140916_UISplitViewController.xcdatamodel */;
+			path = Challenge_20140916_UISplitViewController.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

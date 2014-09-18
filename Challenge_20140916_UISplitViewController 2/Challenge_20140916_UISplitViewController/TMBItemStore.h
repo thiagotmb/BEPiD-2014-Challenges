@@ -17,7 +17,5 @@
 -(TMBItem*)createItem;
 -(void)removeItemAtIndex:(NSInteger)index;
 -(void)moveItemFrom:(NSInteger)currentIndex to:(NSInteger)destineIndex;
-//Core Data
--(BOOL)saveChanges;
 
 @end

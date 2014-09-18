@@ -12,6 +12,5 @@
 @interface TMBDetailViewController : UIViewController <UITextFieldDelegate, UISplitViewControllerDelegate>
 
 @property (nonatomic) TMBItem *item;
-@property (nonatomic) UIPopoverController* masterPopOverController;
 
 @end

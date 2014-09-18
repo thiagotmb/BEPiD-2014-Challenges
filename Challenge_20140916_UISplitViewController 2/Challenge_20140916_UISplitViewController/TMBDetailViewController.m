@@ -13,8 +13,6 @@
 #define NameFieldTag 1
 #define SerialNumberTag 2
 #define ValueTag 3
-#define OwnerTag 4
-
 
 @interface TMBDetailViewController ()
 
@@ -22,10 +20,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *serialNumberField;
 @property (weak, nonatomic) IBOutlet UITextField *valueField;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
-@property (weak, nonatomic) IBOutlet UITextField *ownerField;
+
+@property (nonatomic) UIBarButtonItem* popOverMasterSplitViewControllerButtom;
 
 @property (nonatomic,strong) TMBItemStore *itemStore;
-
 
 @end
 
@@ -37,7 +35,7 @@
     if (self) {
         // Custom initialization
         self.itemStore = [TMBItemStore sharedStore];
-        //self.item = [self.itemStore createItem];
+        self.item = [self.itemStore createItem];
         
     }
     return self;
@@ -82,14 +80,10 @@
             self.item.value = [[self changedTextFieldText:textField withReplacementString:string] intValue];
 
             break;
-        case OwnerTag:
-            self.item.itemOwner = [self changedTextFieldText:textField withReplacementString:string];
-            
-            break;
         default:
             break;
     }
-    [self.itemStore saveChanges];
+    
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ItemChanged" object:self];
     
     return YES;
@@ -110,7 +104,6 @@
     self.nameField.delegate = self;
     self.serialNumberField.delegate = self;
     self.valueField.delegate = self;
-    self.ownerField.delegate = self;
     
 }
 
@@ -123,9 +116,6 @@
     self.valueField.text = [NSString stringWithFormat:@"%d",self.item.value];
     self.valueField.keyboardType = UIKeyboardTypeNumberPad;
 
-    self.ownerField.text = self.item.itemOwner;
-    self.ownerField.keyboardType = UIKeyboardTypeASCIICapable;
-    
     self.dateLabel.text = [NSString stringWithFormat:@"%@", self.item.dateCreated ];
     
 }
@@ -140,8 +130,6 @@
 
     barButtonItem.title = @"Items";
     self.navigationItem.leftBarButtonItem = barButtonItem;
-    
-    self.masterPopOverController = pc;
     
 //    UINavigationController *navigation = self.splitViewController.viewControllers[0];
 //    
@@ -158,8 +146,6 @@
 -(void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem{
     
     self.navigationItem.leftBarButtonItem = nil;
-    
-    self.masterPopOverController = nil;
 
 }
 

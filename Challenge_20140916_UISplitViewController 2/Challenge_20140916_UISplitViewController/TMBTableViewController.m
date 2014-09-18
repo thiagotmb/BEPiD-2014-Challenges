@@ -11,7 +11,7 @@
 #import "TMBItemStore.h"
 #import "TMBItem.h"
 
-#define NumberOfItems 1
+#define NumberOfItems 3
 
 @interface TMBTableViewController ()<UISplitViewControllerDelegate>
 @property (nonatomic) TMBItemStore *itemStore;
@@ -112,8 +112,7 @@
     
     TMBItem *item = self.itemStore.allItems[indexPath.row];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%@,%@",item.itemOwner,item.itemName];
-    
+    cell.textLabel.text = item.itemName;
     
     // Configure the cell...
     return cell;
@@ -121,10 +120,10 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
-    
+   // self.detailViewController = [[TMBDetailViewController alloc] initWithNibName:@"TMBDetailViewController" bundle:nil];
     
     TMBItem *item = self.itemStore.allItems[indexPath.row];
+    
     
     self.detailViewController.item = item;
     
@@ -136,7 +135,7 @@
         [self.detailViewController viewWillAppear:YES];
     }
     
-    [self.detailViewController.masterPopOverController dismissPopoverAnimated:YES];
+    
 }
 
 
@@ -171,7 +170,7 @@
  {
      
      [self.itemStore moveItemFrom:fromIndexPath.row to:toIndexPath.row];
-
+    
      
  }
 
