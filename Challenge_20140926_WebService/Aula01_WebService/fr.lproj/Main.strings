@@ -1,0 +1,24 @@
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "0dm-DB-ojb"; */
+"0dm-DB-ojb.text" = "mMt de passe";
+
+/* Class = "IBUIButton"; normalTitle = "Pick"; ObjectID = "MK4-fv-gpa"; */
+"MK4-fv-gpa.normalTitle" = "Hoisir";
+
+/* Class = "IBUILabel"; text = "Login"; ObjectID = "MLA-Ub-GuB"; */
+"MLA-Ub-GuB.text" = "Connexion";
+
+/* Class = "IBUIButton"; normalTitle = "Logout"; ObjectID = "O04-im-Sx9"; */
+"O04-im-Sx9.normalTitle" = "Déconnexion";
+
+/* Class = "IBUILabel"; text = "Hello"; ObjectID = "ODN-by-Y3R"; */
+"ODN-by-Y3R.text" = "Bonjour";
+
+/* Class = "IBUIButton"; normalTitle = "Upload"; ObjectID = "er6-Vs-hfD"; */
+"er6-Vs-hfD.normalTitle" = "Télécharger";
+
+/* Class = "IBUILabel"; text = "User"; ObjectID = "nMC-ez-NUG"; */
+"nMC-ez-NUG.text" = "Utilisateur";
+
+/* Class = "IBUIButton"; normalTitle = "Entrar"; ObjectID = "xdM-sB-pXM"; */
+"xdM-sB-pXM.normalTitle" = "Entrer";

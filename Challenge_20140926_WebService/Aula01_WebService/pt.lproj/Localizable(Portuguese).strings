@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Aula01_WebService
+
+  Created by Thiago-Bernardes on 9/26/14.
+  Copyright (c) 2014 Antonio Silva. All rights reserved.
+*/
+
+
+"BLANK_LOGIN" = "Login ou senha em branco";
+"ENTER_WITH_VALID_USER_OR_PASSWORD" = "Por favor entre com usuário e senha corretamente";
+"LOGIN_FAILED" = "O Login falhou";
+"CONNECTION_FAILED" = "A conexão falhou";

@@ -1,0 +1,11 @@
+/* 
+  Localizable(English).strings
+  Aula01_WebService
+
+  Created by Thiago-Bernardes on 9/26/14.
+  Copyright (c) 2014 Antonio Silva. All rights reserved.
+*/
+"BLANK_LOGIN" = "Blank login or password";
+"ENTER_WITH_VALID_USER_OR_PASSWORD" = "Please enter with a correct user and password";
+"LOGIN_FAILED" = "The login failed";
+"CONNECTION_FAILED" = "The connection failed";
