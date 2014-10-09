@@ -53,8 +53,9 @@
 - (Client *)createClient
 {
     
-    Client* newClient = [[Client alloc] init];
-    
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Client" inManagedObjectContext:self.context];
+    Client *newClient = [[Client alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:self.context];
+    [self.privateClients addObject:newClient];
     return  newClient;
 //#error Criar um cliente com todos os dados em branco e retorna-lo
 }
@@ -67,12 +68,13 @@
     [request setEntity:entityDescription];
     
     NSError *error;
-    self.privateClients = (NSMutableArray*)[self.context executeFetchRequest:request error:&error];
     
-    if (error) {
+    NSArray *result = [self.context executeFetchRequest:request error:&error];
+    if (!result) {
         [NSException exceptionWithName:@"Failed to load all clients" reason:[error description] userInfo:nil];
         
     }
+    self.privateClients = [NSMutableArray arrayWithArray:result];
     
 //#error Carregar todos os clientes do banco e salva-los no privateClients.
 }

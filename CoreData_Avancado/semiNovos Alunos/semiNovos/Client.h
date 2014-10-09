@@ -17,7 +17,7 @@
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) UIImage* photo;
 @property (nonatomic, retain) UIImage* thumbnail;
-@property (nonatomic, retain) NSManagedObject *own;
+@property (nonatomic, retain) NSSet *own;
 
 -(void)setThumbnailFromImage:(UIImage*)image;
 

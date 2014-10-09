@@ -13,6 +13,6 @@
 @interface Brand : NSManagedObject
 
 @property (nonatomic, retain) NSString * brand;
-@property (nonatomic, retain) NSManagedObject *car;
+@property (nonatomic, retain) NSSet *car;
 
 @end

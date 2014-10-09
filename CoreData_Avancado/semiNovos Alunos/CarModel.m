@@ -52,8 +52,9 @@
 
 - (Car *)createCar
 {
-    Car *newCar = [[Car alloc] init];
-    
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Car" inManagedObjectContext:self.context];
+    Car *newCar = [[Car alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:self.context];
+    [self.privateCars addObject:newCar];
     return newCar;
 //#error Criar um carro com todos os dados em branco e retorna-lo
 }
@@ -68,8 +69,8 @@
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(owner = nil)"];
     [request setPredicate:predicate];
     
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"orderingValue" ascending:YES];
-    request.sortDescriptors= @[sortDescriptor];
+    //NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"orderingValue" ascending:YES];
+    //request.sortDescriptors= @[sortDescriptor];
     
     NSError *error;
     NSArray *result = (NSMutableArray*)[self.context executeFetchRequest:request error:&error];

@@ -52,7 +52,9 @@
 
 - (Brand *)createBrand
 {
-    Brand *newBrand = [[Brand alloc] init];
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Brand" inManagedObjectContext:self.context];
+    Brand *newBrand = [[Brand alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:self.context];
+    [self.privateBrands addObject:newBrand];
     return newBrand;
     
 //#error Criar uma marca com todos os dados em branco e retorna-la
@@ -63,15 +65,17 @@
     NSEntityDescription *entityDescription = [NSEntityDescription  entityForName:@"Brand" inManagedObjectContext:self.context];
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
     [request setEntity:entityDescription];
+
     
     NSError *error;
-    self.privateBrands = (NSMutableArray*)[self.context executeFetchRequest:request error:&error];
+    NSArray *result = [self.context executeFetchRequest:request error:&error];
     
-    if (error) {
+    if (!result) {
         [NSException exceptionWithName:@"Failed to load brands" reason:[error description] userInfo:nil];
         
     }
     
+    self.privateBrands = [NSMutableArray arrayWithArray:result];
 //#error Carregar todas as marcas do banco e salva-las no privateBrands.
 }
 

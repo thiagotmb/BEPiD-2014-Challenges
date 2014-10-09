@@ -42,15 +42,17 @@
         self.birthDatePicker.date = self.client.birthDate;
          self.photoImageView.image = self.client.photo;
 //#error Caso exista o self.client carregar os dados dele nos campos da UIView
-        
-#error Preencher o self.cars com os dados do self.client.own
+        for (Car *car in self.client.own) {
+            [self.cars addObject:car];
+        }
+//#error Preencher o self.cars com os dados do self.client.own
     }
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
+    self.cars = self.ccvc.acquired;
     NSLog(@"Cars: %@", self.cars);
 }
 
@@ -67,7 +69,10 @@
     [self.client setThumbnailFromImage:self.photoImageView.image];
 //#error Carregar o self.client Com os dados dos campos da UIView, não esqueça de carregar o thumbNail
     
-#error Preencher o self.client.own com os dados do self.cars
+//#error Preencher o self.client.own com os dados do self.cars
+    
+    
+    self.client.own = [NSSet setWithArray:self.cars];
     
     [[CarModel sharedModel] removeCars:self.cars fromCoreData:NO];
     

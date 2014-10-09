@@ -38,6 +38,8 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+   
+    
     return [[CarModel sharedModel] allCars].count;
 
     //#error Retornar o número de carros não vendidos cadastrados
@@ -46,11 +48,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    UITableViewCell *tableViewCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    UITableViewCell *tableViewCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
     
     Car *currentCar =  [[[CarModel sharedModel] allCars] objectAtIndex:indexPath.row];
     tableViewCell.textLabel.text = currentCar.model;
-
     tableViewCell.detailTextLabel.text = currentCar.modelYear;
     
     return tableViewCell;

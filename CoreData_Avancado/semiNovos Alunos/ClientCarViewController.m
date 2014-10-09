@@ -25,7 +25,7 @@
     
     self.navigationItem.title = @"Adquiridos";
     
-    _avaliable = [[NSMutableArray alloc] initWithArray:[CarModel sharedModel].allCars];
+    _avaliable = [NSMutableArray arrayWithArray:[CarModel sharedModel].allCars];
     
     if (!_acquired) {
         _acquired = [[NSMutableArray alloc] init];
@@ -35,24 +35,58 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-#error Retornar o número de carros do cliente caso a tableView seja a do cliente
-#error Retornar o número de carros disponíveis caso a tableView seja a de carros disponíveis
+    if ([tableView isEqual:self.acquiredTableView]) {
+        return self.acquired.count;
+    }else
+        if ([tableView isEqual:self.availableTableView]) {
+            return self.avaliable.count;
+        }else{
+            
+            return 0;
+        }
+//#error Retornar o número de carros do cliente caso a tableView seja a do cliente
+//#error Retornar o número de carros disponíveis caso a tableView seja a de carros disponíveis
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-#error Caso a tabelView seja a do cliente, retorne uma UITableViewCell preenchida com os dados do carro do cliente.
-#error Caso a tabelView seja a de carros disponíveis, retorne uma UITableViewCell preenchida com os dados do carro disponível.
+    UITableViewCell *tableViewCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    
+    if ([tableView isEqual:self.acquiredTableView]) {
+        
+        
+        Car *currentCar =  [self.acquired objectAtIndex:indexPath.row];
+        tableViewCell.textLabel.text = currentCar.model;
+        
+        tableViewCell.detailTextLabel.text = currentCar.modelYear;
+        
+    }else
+        if ([tableView isEqual:self.availableTableView]) {
+            
+            
+            Car *currentCar =  [_avaliable objectAtIndex:indexPath.row];
+            tableViewCell.textLabel.text = currentCar.model;
+            tableViewCell.detailTextLabel.text = currentCar.modelYear;
+            
+            
+        }else{
+          //Nothing to do
+          
+        }
+    
+    return tableViewCell;
+//#error Caso a tabelView seja a do cliente, retorne uma UITableViewCell preenchida com os dados do carro do cliente.
+//#error Caso a tabelView seja a de carros disponíveis, retorne uma UITableViewCell preenchida com os dados do carro disponível.
 }
 
 - (IBAction)addButtonClick:(id)sender {
     NSIndexPath *selectedIndexPath = [self.availableTableView indexPathForSelectedRow];
     
     if (selectedIndexPath) {
-        Car *c = [self.avaliable objectAtIndex:selectedIndexPath.row];
+        Car *c = [_avaliable objectAtIndex:selectedIndexPath.row];
         
-        [self.avaliable removeObject:c];
-        [self.acquired addObject:c];
+        [_avaliable removeObject:c];
+        [_acquired addObject:c];
         
         [self.availableTableView deleteRowsAtIndexPaths:@[selectedIndexPath] withRowAnimation:UITableViewRowAnimationFade];
         
@@ -67,7 +101,7 @@
     NSLog(@"Adq: %@",self.acquired);
     
     if (selectedIndexPath) {
-        NSLog(@"Index: %d", selectedIndexPath.row);
+        NSLog(@"Index: %ld", (long)selectedIndexPath.row);
         Car *c = [self.acquired objectAtIndex:selectedIndexPath.row];
         NSLog(@"Car: %@", [c description]);
         
@@ -79,6 +113,10 @@
         NSIndexPath *addIndexPath = [NSIndexPath indexPathForItem:self.avaliable.count - 1 inSection:0];
         [self.availableTableView insertRowsAtIndexPaths:@[addIndexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
+}
+
+-(void)viewDidDisappear:(BOOL)animated{
+
 }
 
 @end

@@ -46,6 +46,11 @@
     }
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    [self.view endEditing:YES];
+}
+
 - (void)saveCar:(id)sender
 {
     if (!self.car) {
