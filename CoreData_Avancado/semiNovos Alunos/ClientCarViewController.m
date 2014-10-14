@@ -32,6 +32,7 @@
     }
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
@@ -105,8 +106,17 @@
         Car *c = [self.acquired objectAtIndex:selectedIndexPath.row];
         NSLog(@"Car: %@", [c description]);
         
-        [self.acquired removeObject:c];
-        [self.avaliable addObject:c];
+        [_acquired removeObject:c];
+        [_avaliable addObject:c];
+        
+        Car *availableCar = [[CarModel sharedModel] createCar];
+        availableCar.color = c.color;
+        availableCar.brand = c.brand;
+        availableCar.model = c.model;
+        availableCar.modelYear = c.modelYear;
+        availableCar.manufactureYear = c.manufactureYear;
+        availableCar.owner = c.owner;
+        
         
         [self.acquiredTableView deleteRowsAtIndexPaths:@[selectedIndexPath] withRowAnimation:UITableViewRowAnimationFade];
         
@@ -117,6 +127,8 @@
 
 -(void)viewDidDisappear:(BOOL)animated{
 
+    
+    
 }
 
 @end

@@ -52,7 +52,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.cars = self.ccvc.acquired;
+    self.cars = [NSMutableArray arrayWithArray:self.ccvc.acquired];
     NSLog(@"Cars: %@", self.cars);
 }
 
@@ -107,8 +107,11 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     if (!self.ccvc) {
         self.ccvc = [[ClientCarViewController alloc] init];
         
-        self.ccvc.acquired = self.cars;
+        self.ccvc.acquired = [NSMutableArray arrayWithArray:[self.client.own allObjects]];
+        NSLog(@"cccv cars %@", self.ccvc.acquired);
     }
+    
+    self.ccvc.acquired = [NSMutableArray arrayWithArray:[self.client.own allObjects]];
     
     [self.navigationController pushViewController:self.ccvc animated:YES];
 }
