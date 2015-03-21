@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE06B85B-7515-43F1-ABBD-FD88DE10FB0C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F014EC5D489352F9958E8EC0B43982A73C2E62FE</key>
+		<string>https://github.com/thiagotmb/Challenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Desafio_SalaD_110_Thiago_Meira_Bernardes_UIEvent/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F014EC5D489352F9958E8EC0B43982A73C2E62FE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thiagotmb/Challenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F014EC5D489352F9958E8EC0B43982A73C2E62FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F014EC5D489352F9958E8EC0B43982A73C2E62FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Challenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7D9A74C-FB1F-4BB3-A945-3D9091FC009C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Desafio_SalaD_110_Thiago_Meira_Bernardes_DemoTouch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E684F92F-5DD2-4D67-9865-02264039111C</key>
+		<string>https://github.com/thiagotmb/Challenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Desafio_SalaD_110_Thiago_Meira_Bernardes_UIEvent/Desafio_SalaD_110_Thiago_Meira_Bernardes_DemoTouch/Desafio_SalaD_110_Thiago_Meira_Bernardes_DemoTouch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E684F92F-5DD2-4D67-9865-02264039111C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thiagotmb/Challenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E684F92F-5DD2-4D67-9865-02264039111C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E684F92F-5DD2-4D67-9865-02264039111C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Challenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>

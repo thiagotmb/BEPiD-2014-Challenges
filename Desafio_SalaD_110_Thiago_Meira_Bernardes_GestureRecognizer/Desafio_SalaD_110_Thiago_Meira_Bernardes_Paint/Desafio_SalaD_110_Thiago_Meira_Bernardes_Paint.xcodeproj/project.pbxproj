@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A469AA11197D8D7800BD8D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA10197D8D7800BD8D37 /* Foundation.framework */; };
+		A469AA13197D8D7800BD8D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA12197D8D7800BD8D37 /* CoreGraphics.framework */; };
+		A469AA15197D8D7800BD8D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA14197D8D7800BD8D37 /* UIKit.framework */; };
+		A469AA1B197D8D7800BD8D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A469AA19197D8D7800BD8D37 /* InfoPlist.strings */; };
+		A469AA1D197D8D7800BD8D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA1C197D8D7800BD8D37 /* main.m */; };
+		A469AA21197D8D7800BD8D37 /* TMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA20197D8D7800BD8D37 /* TMBAppDelegate.m */; };
+		A469AA23197D8D7800BD8D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A469AA22197D8D7800BD8D37 /* Images.xcassets */; };
+		A469AA2A197D8D7800BD8D37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA29197D8D7800BD8D37 /* XCTest.framework */; };
+		A469AA2B197D8D7800BD8D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA10197D8D7800BD8D37 /* Foundation.framework */; };
+		A469AA2C197D8D7800BD8D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469AA14197D8D7800BD8D37 /* UIKit.framework */; };
+		A469AA34197D8D7800BD8D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A469AA32197D8D7800BD8D37 /* InfoPlist.strings */; };
+		A469AA36197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA35197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m */; };
+		A469AA41197D8D9A00BD8D37 /* TMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA40197D8D9A00BD8D37 /* TMBViewController.m */; };
+		A469AA44197D8DA600BD8D37 /* TMBView.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA43197D8DA600BD8D37 /* TMBView.m */; };
+		A469AA47197D8DAC00BD8D37 /* TMBLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A469AA46197D8DAC00BD8D37 /* TMBLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A469AA2D197D8D7800BD8D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A469AA05197D8D7800BD8D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A469AA0C197D8D7800BD8D37;
+			remoteInfo = Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A469AA0D197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469AA10197D8D7800BD8D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A469AA12197D8D7800BD8D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A469AA14197D8D7800BD8D37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A469AA18197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Info.plist"; sourceTree = "<group>"; };
+		A469AA1A197D8D7800BD8D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A469AA1C197D8D7800BD8D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A469AA1E197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch"; sourceTree = "<group>"; };
+		A469AA1F197D8D7800BD8D37 /* TMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBAppDelegate.h; sourceTree = "<group>"; };
+		A469AA20197D8D7800BD8D37 /* TMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBAppDelegate.m; sourceTree = "<group>"; };
+		A469AA22197D8D7800BD8D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A469AA28197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A469AA29197D8D7800BD8D37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A469AA31197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests-Info.plist"; sourceTree = "<group>"; };
+		A469AA33197D8D7800BD8D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A469AA35197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m; sourceTree = "<group>"; };
+		A469AA3F197D8D9A00BD8D37 /* TMBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBViewController.h; sourceTree = "<group>"; };
+		A469AA40197D8D9A00BD8D37 /* TMBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBViewController.m; sourceTree = "<group>"; };
+		A469AA42197D8DA600BD8D37 /* TMBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBView.h; sourceTree = "<group>"; };
+		A469AA43197D8DA600BD8D37 /* TMBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBView.m; sourceTree = "<group>"; };
+		A469AA45197D8DAC00BD8D37 /* TMBLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMBLine.h; sourceTree = "<group>"; };
+		A469AA46197D8DAC00BD8D37 /* TMBLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMBLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A469AA0A197D8D7800BD8D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA13197D8D7800BD8D37 /* CoreGraphics.framework in Frameworks */,
+				A469AA15197D8D7800BD8D37 /* UIKit.framework in Frameworks */,
+				A469AA11197D8D7800BD8D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A469AA25197D8D7800BD8D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA2A197D8D7800BD8D37 /* XCTest.framework in Frameworks */,
+				A469AA2C197D8D7800BD8D37 /* UIKit.framework in Frameworks */,
+				A469AA2B197D8D7800BD8D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A469AA04197D8D7800BD8D37 = {
+			isa = PBXGroup;
+			children = (
+				A469AA16197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint */,
+				A469AA2F197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests */,
+				A469AA0F197D8D7800BD8D37 /* Frameworks */,
+				A469AA0E197D8D7800BD8D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A469AA0E197D8D7800BD8D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA0D197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app */,
+				A469AA28197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A469AA0F197D8D7800BD8D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA10197D8D7800BD8D37 /* Foundation.framework */,
+				A469AA12197D8D7800BD8D37 /* CoreGraphics.framework */,
+				A469AA14197D8D7800BD8D37 /* UIKit.framework */,
+				A469AA29197D8D7800BD8D37 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A469AA16197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA1F197D8D7800BD8D37 /* TMBAppDelegate.h */,
+				A469AA20197D8D7800BD8D37 /* TMBAppDelegate.m */,
+				A469AA3F197D8D9A00BD8D37 /* TMBViewController.h */,
+				A469AA40197D8D9A00BD8D37 /* TMBViewController.m */,
+				A469AA42197D8DA600BD8D37 /* TMBView.h */,
+				A469AA43197D8DA600BD8D37 /* TMBView.m */,
+				A469AA45197D8DAC00BD8D37 /* TMBLine.h */,
+				A469AA46197D8DAC00BD8D37 /* TMBLine.m */,
+				A469AA22197D8D7800BD8D37 /* Images.xcassets */,
+				A469AA17197D8D7800BD8D37 /* Supporting Files */,
+			);
+			path = Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint;
+			sourceTree = "<group>";
+		};
+		A469AA17197D8D7800BD8D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA18197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Info.plist */,
+				A469AA19197D8D7800BD8D37 /* InfoPlist.strings */,
+				A469AA1C197D8D7800BD8D37 /* main.m */,
+				A469AA1E197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A469AA2F197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA35197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m */,
+				A469AA30197D8D7800BD8D37 /* Supporting Files */,
+			);
+			path = Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests;
+			sourceTree = "<group>";
+		};
+		A469AA30197D8D7800BD8D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A469AA31197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests-Info.plist */,
+				A469AA32197D8D7800BD8D37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A469AA0C197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A469AA39197D8D7800BD8D37 /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint" */;
+			buildPhases = (
+				A469AA09197D8D7800BD8D37 /* Sources */,
+				A469AA0A197D8D7800BD8D37 /* Frameworks */,
+				A469AA0B197D8D7800BD8D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint;
+			productName = Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint;
+			productReference = A469AA0D197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A469AA27197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A469AA3C197D8D7800BD8D37 /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests" */;
+			buildPhases = (
+				A469AA24197D8D7800BD8D37 /* Sources */,
+				A469AA25197D8D7800BD8D37 /* Frameworks */,
+				A469AA26197D8D7800BD8D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A469AA2E197D8D7800BD8D37 /* PBXTargetDependency */,
+			);
+			name = Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests;
+			productName = Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests;
+			productReference = A469AA28197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A469AA05197D8D7800BD8D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TMB;
+				TargetAttributes = {
+					A469AA27197D8D7800BD8D37 = {
+						TestTargetID = A469AA0C197D8D7800BD8D37;
+					};
+				};
+			};
+			buildConfigurationList = A469AA08197D8D7800BD8D37 /* Build configuration list for PBXProject "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A469AA04197D8D7800BD8D37;
+			productRefGroup = A469AA0E197D8D7800BD8D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A469AA0C197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint */,
+				A469AA27197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A469AA0B197D8D7800BD8D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA1B197D8D7800BD8D37 /* InfoPlist.strings in Resources */,
+				A469AA23197D8D7800BD8D37 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A469AA26197D8D7800BD8D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA34197D8D7800BD8D37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A469AA09197D8D7800BD8D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA41197D8D9A00BD8D37 /* TMBViewController.m in Sources */,
+				A469AA21197D8D7800BD8D37 /* TMBAppDelegate.m in Sources */,
+				A469AA47197D8DAC00BD8D37 /* TMBLine.m in Sources */,
+				A469AA44197D8DA600BD8D37 /* TMBView.m in Sources */,
+				A469AA1D197D8D7800BD8D37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A469AA24197D8D7800BD8D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A469AA36197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A469AA2E197D8D7800BD8D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A469AA0C197D8D7800BD8D37 /* Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint */;
+			targetProxy = A469AA2D197D8D7800BD8D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A469AA19197D8D7800BD8D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A469AA1A197D8D7800BD8D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A469AA32197D8D7800BD8D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A469AA33197D8D7800BD8D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A469AA37197D8D7800BD8D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A469AA38197D8D7800BD8D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A469AA3A197D8D7800BD8D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A469AA3B197D8D7800BD8D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A469AA3D197D8D7800BD8D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests/Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A469AA3E197D8D7800BD8D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint.app/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint/Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint-Prefix.pch";
+				INFOPLIST_FILE = "Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests/Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A469AA08197D8D7800BD8D37 /* Build configuration list for PBXProject "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A469AA37197D8D7800BD8D37 /* Debug */,
+				A469AA38197D8D7800BD8D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A469AA39197D8D7800BD8D37 /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A469AA3A197D8D7800BD8D37 /* Debug */,
+				A469AA3B197D8D7800BD8D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A469AA3C197D8D7800BD8D37 /* Build configuration list for PBXNativeTarget "Desafio_SalaD_110_Thiago_Meira_Bernardes_PaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A469AA3D197D8D7800BD8D37 /* Debug */,
+				A469AA3E197D8D7800BD8D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A469AA05197D8D7800BD8D37 /* Project object */;
+}

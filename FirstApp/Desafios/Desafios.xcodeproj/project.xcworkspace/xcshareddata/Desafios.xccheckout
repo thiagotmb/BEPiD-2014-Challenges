@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64F848B4-5B2A-4318-A89A-53A2C264603B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Desafios</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F014EC5D489352F9958E8EC0B43982A73C2E62FE</key>
+		<string>https://github.com/thiagotmb/Challenges.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FirstApp/Desafios/Desafios.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F014EC5D489352F9958E8EC0B43982A73C2E62FE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thiagotmb/Challenges.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F014EC5D489352F9958E8EC0B43982A73C2E62FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F014EC5D489352F9958E8EC0B43982A73C2E62FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Challenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>

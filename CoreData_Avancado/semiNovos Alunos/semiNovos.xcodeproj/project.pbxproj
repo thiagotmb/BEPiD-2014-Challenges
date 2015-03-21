@@ -87,12 +87,12 @@
 		078D6D1F19DDCD6200E1FFAC /* ClientCarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClientCarViewController.xib; sourceTree = "<group>"; };
 		A4251D7819E5B3C6006B2513 /* ImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformer.h; sourceTree = "<group>"; };
 		A4251D7919E5B3C6006B2513 /* ImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformer.m; sourceTree = "<group>"; };
-		A4251D7B19E5B62D006B2513 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
-		A4251D7C19E5B62D006B2513 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
-		A4251D7E19E5B62E006B2513 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
-		A4251D7F19E5B62E006B2513 /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
-		A4251D8119E5B62E006B2513 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		A4251D8219E5B62E006B2513 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		A4251D7B19E5B62D006B2513 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = semiNovos/Client.h; sourceTree = "<group>"; };
+		A4251D7C19E5B62D006B2513 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = semiNovos/Client.m; sourceTree = "<group>"; };
+		A4251D7E19E5B62E006B2513 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Brand.h; path = semiNovos/Brand.h; sourceTree = "<group>"; };
+		A4251D7F19E5B62E006B2513 /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Brand.m; path = semiNovos/Brand.m; sourceTree = "<group>"; };
+		A4251D8119E5B62E006B2513 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = semiNovos/Car.h; sourceTree = "<group>"; };
+		A4251D8219E5B62E006B2513 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = semiNovos/Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,12 +148,6 @@
 				078D6C7B19D9923F00E1FFAC /* Supporting Files */,
 				078D6CB319D9D16F00E1FFAC /* MainTabBarController.h */,
 				078D6CB419D9D16F00E1FFAC /* MainTabBarController.m */,
-				A4251D8119E5B62E006B2513 /* Car.h */,
-				A4251D8219E5B62E006B2513 /* Car.m */,
-				A4251D7E19E5B62E006B2513 /* Brand.h */,
-				A4251D7F19E5B62E006B2513 /* Brand.m */,
-				A4251D7B19E5B62D006B2513 /* Client.h */,
-				A4251D7C19E5B62D006B2513 /* Client.m */,
 			);
 			path = semiNovos;
 			sourceTree = "<group>";
@@ -202,6 +196,12 @@
 		078D6CC619D9FD1800E1FFAC /* Model Objects */ = {
 			isa = PBXGroup;
 			children = (
+				A4251D8119E5B62E006B2513 /* Car.h */,
+				A4251D8219E5B62E006B2513 /* Car.m */,
+				A4251D7E19E5B62E006B2513 /* Brand.h */,
+				A4251D7F19E5B62E006B2513 /* Brand.m */,
+				A4251D7B19E5B62D006B2513 /* Client.h */,
+				A4251D7C19E5B62D006B2513 /* Client.m */,
 			);
 			name = "Model Objects";
 			sourceTree = "<group>";
